@@ -1,0 +1,808 @@
+item_id,category,prompt,continuation,grammar,coherence,consistency,creativity,completeness,repetition,notes
+open-01|greedy|0,in_domain_opening,Once upon a time,", there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. She wanted to play with it, but it was too high up. 
+
+Lily asked her mommy, ""Can you help me get the ball down?"" 
+
+Her mommy said, ""Sure, let's go get it."" 
+
+They went to the store and bought the ball. Lily was so happy! She played with it all day long. 
+
+But then, the ball started to get too high up in the sky. Lily said, ""Mommy, the ball is too high. Can we get it down?"" 
+
+Her mommy said, ""No, we can't get it down. But we can play with it again tomorrow."" 
+
+Lily was sad, but she knew her mommy was right. She went to bed that night dreaming of playing with her new ball again.",,,,,,,
+open-01|balanced|0,in_domain_opening,Once upon a time,", there was a little girl named Lily. She loved to play outside and explore the world around her. One day, she went to the park and saw a boy with a broken toy. She felt sad for him and wanted to help him.
+
+Lily went over to the boy and said, ""I will deliver this toy to you."" The boy was happy and said, ""Thank you, Lily. You are so kind.""
+
+As they walked to the park, the boy's car stopped at a gas station. The boy's mommy asked him, ""What's wrong, Timmy?"" Timmy explained, ""My car has a broken wheel and it's hurting it.""
+
+The boy's mommy was grateful for his help and said, ""Thank you, Timmy. You are very kind."" Timmy smiled and continued to walk with his mommy, feeling happy that he could help someone.",,,,,,,
+open-01|balanced|1,in_domain_opening,Once upon a time,", there was a little girl named Lily. She loved to play outside with her friends. One day, Lily saw a man with a big bag of candy. She asked him if she could have some. The man said yes and gave her a small bag.
+
+Lily took the candy and went to play with her friends. But when she got there, she saw that her friends were sad. They didn't have any candy to eat. Lily remembered that she had some candy in her bag. She gave some to her friends and they were happy again.
+
+Lily felt good that she could share her candy with her friends. She learned that sharing is important and makes everyone happy. From that day on, Lily always shared her candy with her friends.",,,,,,,
+open-01|balanced|2,in_domain_opening,Once upon a time,", there was a little boy named Timmy. Timmy loved to eat yummy food. One day, Timmy's mom made him a big bowl of spaghetti for dinner. Timmy was so excited to eat it!
+
+But when Timmy took a bite, he noticed something disgusting on his plate. It was a piece of cheese! Timmy didn't want to eat it, but his mom told him that it was good for him.
+
+After dinner, Timmy's dad came home from work. He had a big bag of spaghetti for dinner. Timmy was so happy! He ate all of his spaghetti and his mom was happy too because she knew she made the right choice.",,,,,,,
+open-02|greedy|0,in_domain_opening,"One day, a little girl named Lily"," went to the park with her mom. They saw a big tree with a swing. Lily wanted to play on the swing, but her mom said, ""No, Lily. You can't play on the swing.""
+
+Lily was sad, but she listened to her mom. She played on the swing and had fun. Then, she saw a boy who was sad. He had no toys to play with. Lily thought, ""Maybe he needs a friend to play with.""
+
+Lily went to the boy and said, ""Hi, I am Lily. Do you want to play with me?"" The boy smiled and said, ""Yes, I would love to play with you."" They played together and had a great time. Lily learned that sharing is good and it makes others happy.",,,,,,,
+open-02|balanced|0,in_domain_opening,"One day, a little girl named Lily"," went to the park with her mom. They saw a big tree with a swing. Lily loved to swing high in the sky. She laughed and shouted, ""I love the swing!""
+
+Lily's mom said, ""Be careful, Lily. Don't swing too high."" Lily said, ""Okay, Mommy."" She played on the swing and had so much fun.
+
+After a while, Lily's mom said it was time to go home. Lily said, ""Can we come back to the park tomorrow?"" Her mom said, ""Yes, we can come back and swing again."" And Lily went home, happy and tired.",,,,,,,
+open-02|balanced|1,in_domain_opening,"One day, a little girl named Lily"," found a broken toy in her room. She did not know how it got there, so she asked her mom for help. Her mom said, ""I will help you fix it.""
+
+Lily and her mom took the toy to a busy room. There were many toys there, and Lily saw a big box. She asked her mom, ""What is that?"" Her mom said, ""It's a new toy for you to play with.""
+
+Lily was very happy. She played with the new toy all day. She made a big tower with the pieces. She played with the tower all day. She was very happy with her new toy.",,,,,,,
+open-02|balanced|2,in_domain_opening,"One day, a little girl named Lily"," went to the park with her mom. They saw a big red ball on the pitch. Lily loved to play with balls. She asked her mom, ""Can I play with the big red ball?""
+
+Her mom said, ""Yes, but be careful and don't let go."" Lily was very happy. She played with the big red ball all day long.
+
+After playing, Lily's mom said, ""It's time to go home now."" Lily said, ""Okay, I'm coming!"" She was very tired. Lily said, ""Mom, can we go home now?"" Her mom said, ""Yes, let's go home.""
+
+Lily and her mom walked home. Lily was happy to have a fun day at the park. She knew she would always remember her fun day at the park.",,,,,,,
+open-03|greedy|0,in_domain_opening,Tom and Sara were playing in the garden when they found," a big box. They opened it and saw many shiny things inside. They were coins, jewels, and rings. They were very happy and excited.
+
+""Wow, look at these!"" Tom said. ""They are so pretty and sparkly. Can we keep them?""
+
+""Yes, let's keep them!"" Sara said. ""They are so pretty and sparkly. We can pretend we are rich and have a lot of money.""
+
+They took out some coins and put them in their pockets. They felt very rich and happy. They decided to keep the box and the coins in their pockets.
+
+But then they heard a loud voice. It was their mom. She was angry and sad.
+
+""Tom! Sara! What are you doing with my box and my coins? Those are not yours! They are mine! Give them back to me right now!""
+
+Tom and Sara were scared and sorry. They did not know they were doing something bad. They",,,,,,,
+open-03|balanced|0,in_domain_opening,Tom and Sara were playing in the garden when they found," a big box. They opened it and saw many shiny things inside. There were rings, necklaces, bracelets, and earrings. They were made of metal and had shiny things on them.
+
+""Wow, look at these!"" Tom said. ""They are so pretty and shiny. I want to try them on.""
+
+""Me too!"" Sara said. ""They are so pretty and sparkly. Let's try them on.""
+
+They took out some rings and necklaces from the box and put them on. They felt very happy and pretty. They tried on some rings and necklaces and bracelets. They looked like princesses.
+
+But then, a man came out of a house next to the garden. He was angry and shouted at them.
+
+""Hey, you two! What are you doing with my things? Those are my things! Give them back!""
+
+Tom and Sara were scared and dropped the rings and necklaces. They ran away as fast as they could",,,,,,,
+open-03|balanced|1,in_domain_opening,Tom and Sara were playing in the garden when they found," a big box. They opened the box and saw many shiny things inside. There were necklaces, bracelets, earrings, and rings. They sparkled in the sun.
+
+""Wow, look at these!"" Tom said. ""They are so pretty. Let's take some and play with them.""
+
+""No, Tom, that's not ours. It belongs to someone else. Maybe they are not nice. We should not take what is not ours,"" Sara said.
+
+But Tom did not listen. He took some of the shiny things and put them in his pocket. He ran to the house and showed them to his mom.
+
+""Mom, look what I found! They are so pretty and sparkly. Can I keep them?"" he asked.
+
+""No, Tom, you can't keep them. They belong to someone else. They are not yours. They belong to the owner of the box. They are very important to me. We should give them",,,,,,,
+open-03|balanced|2,in_domain_opening,Tom and Sara were playing in the garden when they found," a big box. It had a lid and a handle. They wanted to see what was inside.
+
+""Let's open it!"" Tom said.
+
+""OK!"" Sara said.
+
+They tried to pull the lid, but it was too heavy. They pulled and pulled, but it did not move.
+
+""Maybe we need a stick,"" Tom said.
+
+He looked around and saw a long stick on the ground. He picked it up and ran to the box.
+
+""Look, I found a stick!"" he said.
+
+He hit the box with the stick. The lid opened. They saw many shiny things inside.
+
+""Wow, look at all these!"" Tom said.
+
+""Maybe they are jewels!"" Sara said.
+
+""Maybe they are treasure!"" Tom said.
+
+They took out some of the shiny things and put them in their pockets. They felt happy and excited.
+
+""Let's take some",,,,,,,
+open-04|greedy|0,in_domain_opening,"The little cat was very hungry, so she"," went to the kitchen to find something to eat. She saw a big bowl of food on the table and she was so excited. She started to eat the food, but then she heard a noise. It was a loud noise, like a roar. She was scared and quickly hid behind the table.
+
+The noise got louder and louder, and the little cat was so scared that she started to cry. She was so scared that she didn't know what to do. Suddenly, she heard a voice. It was her mom, who had come to the kitchen to see what was wrong.
+
+The little cat was so relieved that she ran to her mom and hugged her. Her mom said, ""It's okay, I'm here. I'm here to help."" She then took the little cat to the kitchen and gave her a big bowl of food. The little cat was so happy and she ate all of the food.
+
+The little cat was no longer hungry and she was",,,,,,,
+open-04|balanced|0,in_domain_opening,"The little cat was very hungry, so she"," went to find a bowl. She found a bowl and looked inside. It was full of tasty food! She took some food and put it in the bowl.
+
+But when she tried to grab the bowl, it was too heavy for her to lift. She tried to pull it, but it was too hard. She was so sad.
+
+Then, she had an idea. She ran to her kitchen, grabbed a bowl and some spoon. She put the bowl under the spoon and the bowl. She was very happy to see the bowl full of food.
+
+She started to eat. She liked the bowl very much. It was so tasty. She ate and ate until there was nothing left.
+
+Finally, the bowl was full and the bowl was empty. The little cat was very happy. She went to bed with a full belly and a happy heart.",,,,,,,
+open-04|balanced|1,in_domain_opening,"The little cat was very hungry, so she"," went outside to find something to eat. She saw a big, juicy berry on a tree, and she wanted to eat it. She went closer and closer, until she could see it was the sweetest and juiciest berry she had ever seen. She couldn't resist it and took a bite. It was so sweet and delicious!
+
+The little cat was so happy, she started to jump up and down. She wanted to take another bite of the juicy berry, but she knew that she needed to wait for it to cool down. After a few more bites, she took a bite. The berry was so yummy and juicy! She was so happy that she wanted to share it with her friends.
+
+The little cat's friends were so excited to eat the berry. They all shared it and enjoyed it together. The little cat was so happy that she had found something to eat and was so content that she wanted to take another bite. She quickly found another berry and ate it all",,,,,,,
+open-04|balanced|2,in_domain_opening,"The little cat was very hungry, so she"," went to her friend's house to ask for some food. When she arrived, her friend was very busy, and she asked her, ""What are you doing here?""
+
+The little cat replied, ""I'm just looking for food, I can't find any.""
+
+Her friend said, ""I have some cheese in my bag. Would you like some?""
+
+The little cat said, ""Yes, please!""
+
+So the little cat gave the cheese to her friend. Her friend was very happy and thanked the little cat.
+
+They both ate the cheese and were very happy. From then on, the little cat knew that her friend was always there for her.",,,,,,,
+open-05|greedy|0,in_domain_opening,"Once upon a time, a small rabbit"," named Benny lived in a big forest. Benny loved to eat carrots and play with his friends. One day, Benny saw a big, scary wolf. The wolf wanted to eat Benny for dinner. Benny was very scared and didn't know what to do.
+
+Benny's friend, a wise old owl, saw that Benny was scared and asked him what was wrong. Benny told the owl about the wolf. The owl said, ""Don't worry, Benny. I will protect you. I will protect you."" The owl flew up high and scared the wolf away.
+
+Benny was very happy and thanked the owl. Benny's friends came to his house and they all had a big feast together. Benny was no longer scared of the wolf and he was grateful to his friends for protecting him.",,,,,,,
+open-05|balanced|0,in_domain_opening,"Once upon a time, a small rabbit"," named Billy was hopping in the forest. He saw a big, scary wolf. The wolf had a big, long tail and a long, sharp teeth. Billy was scared and started to tremble.
+
+""Help!"" cried Billy. ""There's a big, scary wolf!""
+
+A wise old owl named Ollie saw Billy trembling. Ollie flew to the ground and said, ""Little one, don't be scared. I will help you.""
+
+Ollie flew away and came back with a big, strong ant. The ant held the ant in his tiny hands. ""This ant will protect you,"" said Ollie. ""It will take you to the safe place.""
+
+The ant took Billy to a safe place and made sure he was safe. Billy was so happy and thanked Ollie. From that day on, Billy was never scared again.",,,,,,,
+open-05|balanced|1,in_domain_opening,"Once upon a time, a small rabbit"," named Benny was hopping through the woods. He saw a big, juicy carrot and hopped over to take a bite. But the carrot was too big for him to carry. 
+
+Benny saw a big, mean dog named Max and asked for help. Max said he had a plan. Benny was scared, but he trusted Max and together they pulled the carrot out of the ground. 
+
+Benny and Max shared the carrot and became friends. They played together in the woods and had lots of fun. Benny was happy he could share his yummy carrot with his friend. The end.",,,,,,,
+open-05|balanced|2,in_domain_opening,"Once upon a time, a small rabbit"," was hopping through the woods. He was so happy to be out of his burrow. He hopped and hopped, and then he saw something he had never seen before. It was a trap!
+
+The rabbit was very curious and wanted to know what was inside the trap. He hopped closer and closer until he reached it. The trap was made of sticks and stones.
+
+The rabbit was very curious and decided to take a look inside the trap. He hopped into the trap and suddenly he heard a voice.
+
+""Who are you?"" said the voice.
+
+The rabbit was very scared and he quickly answered back, ""I'm just a little rabbit hopping through the trap"".
+
+The voice replied, ""It's ok, I'm not going to hurt you"".
+
+The rabbit was very surprised and he said, ""I just wanted to explore!""
+
+The voice said, ""Well, it's very nice to meet you. Let's explore together!""
+
+",,,,,,,
+char-01|greedy|0,character_consistency,"Max was a brown dog who could not swim. One hot day, Max went to the lake with his friend Bella, a white duck."," They saw a big fish in the water and Max wanted to catch it. He said to Bella, ""Look, Bella, a fish! Let's catch it!""
+
+Bella said, ""No, Max, that's not a fish. That's a fish. It's a fish. It's not a fish. It's a fish.""
+
+Max did not listen to Bella. He jumped into the water and tried to catch the fish. He did not see the fish that was swimming near him. He did not hear the splash. He did not feel the water on his fur. He only felt the fish.
+
+The fish saw Max and got scared. It bit Max's nose and pulled him into the water. Max screamed and tried to swim back to the shore. He was wet and cold and scared. He cried for help.
+
+Bella heard Max's scream and ran to the lake. She saw Max in the water and the fish. She was very sad and",,,,,,,
+char-01|balanced|0,character_consistency,"Max was a brown dog who could not swim. One hot day, Max went to the lake with his friend Bella, a white duck."," They had fun playing in the water and splashing each other. 
+
+After a while, Max noticed that he was very thirsty. He asked Bella if they could get some water from the lake. Bella agreed, and they went to the lake. 
+
+When they got to the lake, they saw that the water was very deep. Max was a bit scared, but Bella was brave and started to swim. Max was so happy, he started to splash around in the water.
+
+Bella was so proud of Max. He was happy to have a friend like Max and he knew that he had a special swimming style. Max and Bella smiled at each other, feeling very proud of their accomplishment.",,,,,,,
+char-01|balanced|1,character_consistency,"Max was a brown dog who could not swim. One hot day, Max went to the lake with his friend Bella, a white duck."," They were both very thirsty, so they drank some water from the lake. Suddenly, the water became very cold and cold. Max started to shiver and bark. 
+
+Bella saw that Max was shivering and wanted to help. She went over to Max and gave him a big hug. Max felt much better and stopped shivering. 
+
+The moral of the story is that even small acts of kindness can make a big difference in someone's life. Max and Bella learned that it's important to be kind and help each other, even if it's cold and cold.",,,,,,,
+char-01|balanced|2,character_consistency,"Max was a brown dog who could not swim. One hot day, Max went to the lake with his friend Bella, a white duck."," They were having fun playing in the water when they saw a big boat. The boat was going very fast, and it was going very fast.
+
+Max said to Bella, ""I want to swim too!"" Bella said, ""Me too! Let's go on the boat!"" They swam to the boat and saw a man in a suit. He was talking to a cat. Max said, ""Hello, do you want to swim with us?"" The cat said, ""Yes, please!""
+
+Max and Bella jumped on the boat. They went fast and splashed water everywhere. The man laughed and said, ""You two look like two fish!"" Max and Bella laughed and had a great time. They played and swam until they were tired. Then, they went home and took a nap.",,,,,,,
+char-02|greedy|0,character_consistency,Anna had a red ball and her brother Ben had a blue kite.," They liked to play with their toys and run around the yard. Sometimes they shared the ball and had fun.
+
+One day, they saw a big dog in the yard. The dog was black and had sharp teeth. It barked and ran towards them. Anna and Ben were scared. They did not know the dog.
+
+""Help! Help!"" they shouted. ""The dog is coming!""
+
+Their mom heard them and came out. She saw the dog and the ball. She was not scared. She knew the dog. It was not a bad dog. It was just a friendly dog.
+
+""Don't worry, kids,"" she said. ""The dog is not bad. It just wants to play. It is not mean. It is just playful.""
+
+She picked up the ball and threw it to the dog. The dog caught it and wagged its tail. It liked the ball. It dropped the ball and ran to the ball. It picked it up",,,,,,,
+char-02|balanced|0,character_consistency,Anna had a red ball and her brother Ben had a blue kite.," They liked to play with the kite in the park. They ran and laughed and had fun.
+
+One day, a big boy came to the park. He saw the kite and wanted it. He asked Anna and Ben if he could have it. Anna said no, the kite was hers. She said it was hers.
+
+Ben was angry. He said the kite was his and he wanted it. He tried to grab the kite from the big boy. The big boy pulled the kite away. He said Anna was mean and selfish. He laughed at Anna and Ben.
+
+Anna and Ben cried. They were sad and scared. They did not know what to do. They wanted their kite back.
+
+A lady saw them crying. She came over and asked what was wrong. Anna and Ben told her about the big boy and the kite. The lady said they could get the kite back. She said the big boy was wrong and he was wrong. She said he should",,,,,,,
+char-02|balanced|1,character_consistency,Anna had a red ball and her brother Ben had a blue kite.," They liked to play with their kites in the park every day. Sometimes they would let Ben fly the kite high in the sky, and he would laugh and cheer.
+
+One day, a big dog came to the park. He saw the kites and wanted to play with them too. He ran to the kite and bit it. He pulled and pulled, but the kite did not move. He was angry and scared. He barked and barked, but no one heard him.
+
+Anna saw what the dog did and she felt sorry for Ben. She went to him and said, ""I'm sorry, Ben. That dog was bad. He should not bite things that are not his. Are you okay?"" She gave him a hug and a kiss, and said, ""Let's go home and play with our kites. Maybe we can fly the kite again another day.""
+
+Ben nodded and smiled. He held Anna's hand and they walked home. He still liked his red ball",,,,,,,
+char-02|balanced|2,character_consistency,Anna had a red ball and her brother Ben had a blue kite.," They liked to play with the kite in the park. But one day, the wind was very strong and the kite flew high in the sky. Anna and Ben wanted to catch it and fly it.
+
+""Let's get the kite, Ben!"" Anna said. ""We can run after it and make it fly high.""
+
+""No, Anna, we can't!"" Ben said. ""The kite is too high and the wind is too strong. We have to be careful.""
+
+""But the kite is so pretty and nice. I want to keep it for myself. Please, Ben, let's get it for Mom."" Anna said.
+
+Ben shook his head. ""No, Anna, we can't. Mom will be mad if we take the kite. And we have to be careful. The wind is not strong enough to hold the kite. If we break it, the kite will fall and hurt us. We have to let the kite fly away.""
+",,,,,,,
+cause-01|greedy|0,causal_reasoning,"It started to rain, so Mia"," and her mom went to the park. Mia was so excited to play in the rain. She ran around and laughed as the rain splashed on her face.
+
+Mia's mom said, ""Let's go to the park and play in the rain!"" Mia smiled and said, ""Yes!""
+
+Mia and her mom ran to the park. Mia was so happy to be outside in the rain. She jumped and laughed and splashed in the puddles.
+
+Mia's mom said, ""Let's go home now."" Mia said, ""Yes, let's go!""
+
+Mia and her mom ran back home. Mia was so happy to be in the rain. She had so much fun playing in the rain.",,,,,,,
+cause-01|balanced|0,causal_reasoning,"It started to rain, so Mia"," went outside to play. She saw a big puddle of water. She wanted to splash in it. She put her hand in the water and felt it. It was wet and cold. Mia laughed and splashed some more.
+
+Then Mia saw something. It was a big boat. It was red and white and had a sail. It was a fireman boat. Mia wanted to see it up close. She ran to the edge of the puddle and jumped in. She did not see the sign that said ""Do not enter"".
+
+Mia got wet and cold. She felt dizzy and scared. She wanted to get out of the puddle. But she did not know how. She felt like she was going to fall. She cried for help.
+
+Her mom heard her cry. She ran to the puddle and saw Mia in the puddle. She was angry and worried. She pulled Mia out of the puddle and hugged her. She said, ""Mia, what are you doing? You could",,,,,,,
+cause-01|balanced|1,causal_reasoning,"It started to rain, so Mia"," and her dad went out to look for shelter. Mia's dad found an old shelter near the park, so Mia and her dad went inside and stayed dry. Mia was so happy!
+
+She looked around and saw a little window. She had never seen it before, so she wanted to try to open it. Her dad opened the window, and Mia stepped inside.
+
+Mia looked around and noticed that the window was broken. She was sad and wanted to help. She asked her dad if he could fix it, and he said yes.
+
+He got some tools and fixed the window. Mia and her dad watched as the window started to glow. The shelter was fixed! Mia was so happy that the window was fixed.
+
+Mia and her dad went inside the shelter and had a big hug. They stayed inside until it was dry and then they had some hot chocolate to warm up.
+
+Mia and her dad thanked the shelter for being fixed and they all lived happily",,,,,,,
+cause-01|balanced|2,causal_reasoning,"It started to rain, so Mia"," and her mom went to the park. It was wet outside, but Mia was happy. She loved the park, and she loved to play on the swings.
+
+Mia's mom said, ""Let's go to the sandpit, Mia.""
+
+Mia ran to the sandpit. She found some sand and started to build a big castle. Mia was having so much fun. She was almost done when she heard a loud noise.
+
+Mia looked around and saw that a big bucket was in the sandpit. It was full of sand! Mia was so excited that she wanted to fill the bucket with sand.
+
+She started to dig and fill the bucket. Mia was very happy. She filled the bucket with sand and made a big castle. She had a lot of fun.",,,,,,,
+cause-02|greedy|0,causal_reasoning,Sam dropped the glass on the floor and it," broke. He was so sad and he started to cry. His mom came over and said, ""Don't worry, Sam. We can fix it.""
+
+Mom took the glass and put it back together. She said, ""Let's see if we can fix it.""
+
+Sam watched as Mom put the glass back together. She said, ""It's okay, Sam. We can try to fix it.""
+
+Sam was so happy. He smiled and said, ""Thank you, Mom!""
+
+Mom smiled and said, ""You're welcome, Sam. Now let's see if we can fix it.""
+
+They worked together and soon the glass was fixed. Sam was so happy and he said, ""Thank you, Mom!""
+
+Mom said, ""You're welcome, Sam. Now let's go and have some ice cream!""",,,,,,,
+cause-02|balanced|0,causal_reasoning,Sam dropped the glass on the floor and it," made a loud noise. He was so scared that he started to cry. His mom came into the room and hugged him.
+
+""It's okay, Sam,"" she said, trying to comfort him. ""It's just a glass, and it will be ok.""
+
+Sam was still scared, but his mom gave him a hug and said, ""It's ok, nothing to be scared of.""
+
+Sam felt better, and he stopped crying. He looked around the room and saw all the furniture. He was so happy to see his mom again.
+
+""Mommy, can I play?"" asked Sam.
+
+""Yes, of course,"" said his mom, ""Go play with your toys"".
+
+Sam smiled and ran to the toy box. He picked up his favorite toy and was ready to play. He was so glad that his mom had comforted him when he was scared.",,,,,,,
+cause-02|balanced|1,causal_reasoning,Sam dropped the glass on the floor and it," broke. He was scared and started to cry. His mum was very angry and said, ""That was my special glass. You must not touch it.""
+
+Sam was so sad and he asked his mum, ""Why did you do that?"" His mum said, ""It was not nice to break things.""
+
+Sam felt guilty and he said, ""I'm sorry."" His mum hugged him and said, ""It's okay, you can always get a new glass. Just be more careful next time."" 
+
+Sam nodded and said, ""I will be more careful next time."" His mum smiled and said, ""That's my good boy.""",,,,,,,
+cause-02|balanced|2,causal_reasoning,Sam dropped the glass on the floor and it," broke. He was very sad and he cried. His mum was not happy and she said, ""No, no. You need to learn to be careful. It's very important to be careful and not drop things.""
+
+Sam thought for a moment and said, ""I understand, mum. I will be careful and not drop things.""
+
+Mum smiled and said, ""That's good. Now you know why it's important to be careful. Always be careful and donâ€TMt drop things.""
+
+Sam nodded and hugged his mum. He learned his lesson and he never dropped anything again.",,,,,,,
+cause-03|greedy|0,causal_reasoning,"The ice cream was left in the sun for a long time. When Jack came back,"," he was very sad. He had been looking forward to the ice cream for a long time.
+
+Jack's mom saw him and said, ""Don't worry, Jack. I have a surprise for you."" She took out a big box and opened it. Inside was a brand new ice cream!
+
+Jack was so happy. He said, ""Thank you, Mommy!"" He took the ice cream and ate it. It was so yummy!
+
+Jack was so happy that he had a new ice cream. He said, ""Mommy, this ice cream is so yummy!"" His mom smiled and said, ""I'm glad you like it, Jack.""",,,,,,,
+cause-03|balanced|0,causal_reasoning,"The ice cream was left in the sun for a long time. When Jack came back,"," he was surprised to find that the ice cream had disappeared! He looked around, but the ice had disappeared. 
+
+Jack was very disappointed and started to cry. He looked around and saw the ice cream on the ground. It had been there for a long time, but now it was gone. 
+
+Jack went to ask his mom, and she said that she had seen the ice cream disappear and it was still there. Jack was so happy to hear that. He thanked his mom for the surprise and ran off to eat his ice cream.",,,,,,,
+cause-03|balanced|1,causal_reasoning,"The ice cream was left in the sun for a long time. When Jack came back,"," he was very excited. He had made a big mess. His mom said he had to clean it up first. Jack thought it was funny and he laughed. 
+
+But then his mom said, ""Jack, you have to clean it up. It's time to eat your ice cream."" Jack was disappointed but he understood. He slowly put the ice cream in the freezer. 
+
+When Jack went to the freezer, he saw that it was empty. He was very disappointed. His mom said, ""Don't worry, Jack. We can go get some ice cream from the store."" 
+
+Jack was so happy and he smiled. He knew his mom had done the right thing. He couldn't wait to eat his ice cream and see if it was perfect.",,,,,,,
+cause-03|balanced|2,causal_reasoning,"The ice cream was left in the sun for a long time. When Jack came back,"," he was very sad. He wanted to go to the ice cream shop, but he couldn't find any. Jack asked his mom, ""Where is the ice cream? Is it available?""
+
+His mom said, ""No, not too much. It's too hot for you to go to the ice cream shop. You can look for it.""
+
+Jack was so sad. He wanted the ice cream very much. He looked everywhere and finally found it. He ran to the ice cream shop and asked the shopkeeper, ""Please can I have the ice cream?""
+
+The shopkeeper smiled and said, ""Of course you can! Come with me, Jack.""
+
+Jack was so excited! He couldn't wait to get home and get the ice cream. When they got home, Jack quickly ran inside. He was so happy to get the ice cream he wanted to eat. It was the best thing he had ever tasted!",,,,,,,
+dialog-01|greedy|0,dialogue,"""Can I have a cookie?"" asked Tim. His mom said,"," ""Yes, but you have to be careful. The cookie is very hot."" Tim was excited and he wanted to eat the cookie right away.
+
+Tim's mom gave him a big, red cookie. Tim took a big bite and it was so yummy. He ate the whole cookie and it was very yummy. Tim was happy and he shared the cookie with his friends. They all enjoyed the cookie and had a fun day.",,,,,,,
+dialog-01|balanced|0,dialogue,"""Can I have a cookie?"" asked Tim. His mom said,"," ""Yes, you can have one."" So Tim took a cookie and took a big bite. ""Mmm, this cookie is so yummy,"" said Tim. 
+
+After eating his cookie, Tim felt very sleepy. He wanted to take a nap. So he found a big tree and climbed up. ""I can see the whole world from up here,"" said Tim. 
+
+He looked down and saw his mom watching him. ""Good job, Tim,"" said his mom. ""You found the perfect spot to take a nap."" Tim smiled and took a nap.",,,,,,,
+dialog-01|balanced|1,dialogue,"""Can I have a cookie?"" asked Tim. His mom said,"," ""No, you don't need a cookie. But I have something else for you to play with."" She handed him a big, blue cookie. Tim smiled and said, ""Thank you, mom!""
+
+Tim went outside and started to play with his friends. They all took turns eating the cookie. They laughed and had a lot of fun. Tim's mom watched them and smiled too.
+
+After a while, it was time to go home. Tim and his friends were tired but happy. They said goodbye to each other and went inside. Tim had a great day playing with his friends.",,,,,,,
+dialog-01|balanced|2,dialogue,"""Can I have a cookie?"" asked Tim. His mom said,"," ""Yes, but only one."" Tim was very happy. He grabbed a cookie and took a big bite. The cookie was so sweet!
+
+Tim's mom said, ""That's enough. You should always ask before you take something that doesn't belong to you."" But Tim didn't listen. He kept eating the cookie.
+
+After a while, Tim's mom said, ""Tim, you know it's not nice to take things that don't belong to you. You should always ask first. That's the right thing to do."" Tim learned his lesson. He promised to always ask before taking something that wasn't his.",,,,,,,
+end-01|greedy|0,story_completion,"Lily looked everywhere for her lost teddy bear. She looked under the bed and in the garden. At last,"," she saw something shiny under a bush. She ran to it and picked it up. It was her teddy bear!
+
+""Look, Mommy! I found my teddy bear!"" she shouted.
+
+Mommy came to see what Lily had found. She smiled and hugged Lily.
+
+""That's wonderful, Lily. You are so lucky to find your teddy bear. He must have been lost for a long time. But don't worry, we will find him soon. He is a very special teddy bear. He is a gift from your grandma. She loves you very much.""
+
+Lily felt happy and warm. She hugged her teddy bear and thanked Mommy. She put him on her bed and looked at him. He was still there, waiting for her. She felt a little sad, but she knew Mommy was right. She had her teddy bear back. He was her best friend.",,,,,,,
+end-01|balanced|0,story_completion,"Lily looked everywhere for her lost teddy bear. She looked under the bed and in the garden. At last,"," she found him under a big bush. He was dirty and shivering.
+
+""Teddy, Teddy, are you okay?"" Lily asked. She picked him up and hugged him.
+
+""Yes, Lily, I'm okay. I'm sorry I was in a hurry. I was just playing."" Teddy said. He was wet and cold and hurt.
+
+Lily was angry and sad. She wanted Teddy back. She saw a big spider on the wall. It was black and hairy and had eight legs. It was making a web.
+
+""Mommy, mommy, a spider! It's ugly and scary!"" Lily cried. She wanted her mommy to help her.
+
+Mommy came to the garden. She saw the spider and the web. She knew what it was.
+
+""Don't worry, Lily. I'll help you. The spider is not ugly or scary. It's just a little spider. It's not ugly. It's just a spider. It",,,,,,,
+end-01|balanced|1,story_completion,"Lily looked everywhere for her lost teddy bear. She looked under the bed and in the garden. At last,"," she heard a noise in the woods. She followed the sound and saw a big, fat bear. The bear was very grumpy and did not want to play with Lily.
+
+""Hello, little girl,"" the bear said. ""I am so lonely. I miss my home in the woods.""
+
+Lily felt sorry for the bear. She wanted to help him. She had an idea.
+
+""Can I be your friend?"" she asked. ""You look like you need a home.""
+
+The bear smiled and nodded. He liked Lily. He liked her.
+
+""Yes, you can be my friend,"" he said. ""But you have to be nice and not scare me.""
+
+Lily nodded and hugged the bear. She took him to her house and showed him her room. She had a bed, a table, and some toys. She also had some toys to play with.
+
+""Look, I have a bear,"" she said. ""He",,,,,,,
+end-01|balanced|2,story_completion,"Lily looked everywhere for her lost teddy bear. She looked under the bed and in the garden. At last,"," she found her teddy bear in the garden. She was so happy and hugged it tight.
+
+Lily ran to her mom and said, ""Mom, I found my teddy bear in the garden. Can you help me find it?""
+
+Mom smiled and said, ""Of course, Lily. Let's go look for it together."" They looked around the garden and finally found the teddy bear under a bush. Lily was so happy and gave her mom a big hug.
+
+They went back to the house and Lily hugged her teddy bear again. ""Thank you, Mom, for helping me find my teddy bear,"" she said. Mom hugged Lily back and said, ""You're welcome, my sweet Lily. I love you.""",,,,,,,
+end-02|greedy|0,story_completion,Ben and his dad built a sandcastle. Then a big wave came and," knocked it down. Ben was sad. He wanted to make the biggest sandcastle ever.
+
+""Dad, can I make a bigger one?"" Ben asked.
+
+""No, Ben, you can't. The wave is too big and strong. You will ruin it,"" his dad said.
+
+Ben was angry. He did not like his dad's words. He wanted to make his sandcastle bigger. He had an idea. He ran to the water and jumped in. He splashed and kicked and made a big mess.
+
+""Ben, stop! You are making a mess!"" his dad shouted.
+
+Ben did not stop. He splashed and kicked and made more mess. He did not see the big wave coming. He did not see the big wave that was coming.
+
+The wave was very strong. It pushed Ben into the water. Ben fell into the water. He was wet and cold and scared. He cried for help.
+
+His dad ran to",,,,,,,
+end-02|balanced|0,story_completion,Ben and his dad built a sandcastle. Then a big wave came and," made a big splash. Ben and his dad laughed. They worked hard to make the sandcastle and the sandcastle.
+
+But then the wave came and pushed the sandcastle away. The sandcastle fell down and made a bigger mess. Ben and his dad were very sad. They cried.
+
+""Oh no, we made a big mess!"" Ben said.
+
+""It's okay, Ben. We can clean it up and try again,"" his dad said.
+
+Ben nodded. He was still sad, but he wanted to try again. He helped his dad pick up the sand and the sandcastle. They put them back in the bucket and added some shells. They made a new sandcastle. They were happy again.",,,,,,,
+end-02|balanced|1,story_completion,Ben and his dad built a sandcastle. Then a big wave came and," knocked it down. Ben and his dad laughed and clapped. Then Ben wanted to explore the water. His dad said he could, but he had to be careful. He did not want Ben to get wet.
+
+Ben and his dad walked to the water and saw it was very deep. Ben was scared. He did not like it. He said, ""Dad, can I go in the water?"" His dad said, ""No, Ben, it is too deep. You might get hurt."" Ben was sad. He wanted to see the wave. He said, ""Please, dad, just a little bit."" His dad said, ""No, Ben, I want to see the wave. It is very beautiful and strong. You have to stay with me."" Ben was angry. He did not want to stay with his dad. He wanted to touch the wave. He said, ""No, dad, I want to go in the water. I want to play in the water.""",,,,,,,
+end-02|balanced|2,story_completion,Ben and his dad built a sandcastle. Then a big wave came and," splashed the sandcastle! Ben was so excited and shouted, ""Yay! That was so cool!"" His dad smiled and said, ""Let's go play in the sand!""
+
+So they ran to the sand and started to build the biggest sandcastle ever. It was so tall and the sun was shining. The sand made the castle very big and very colourful. 
+
+But then a bigger wave came and knocked Ben's sandcastle down. He was sad and said, ""Oh no! My sandcastle is gone!"" 
+
+His dad said, ""Don't worry, Ben. We can build another one. Come on, let's build it again."" 
+
+So Ben and his dad built a bigger sandcastle and were very proud of what they had built. They played in the sand until it was time to go home.",,,,,,,
+long-01|greedy|0,long_context,"Once upon a time, there was a girl named Rosie who lived in a yellow house near the sea. Rosie had a pet turtle called Shelly. Every morning, Rosie fed Shelly green leaves and told her about her dreams. One morning, Rosie saw that Shelly was not in her box. Rosie was very worried. She looked in the kitchen, but Shelly was not there. She looked in the garden, but Shelly was not there either. Rosie asked her grandpa for help. Grandpa put on his big hat and said, ""Let's look by the sea."" They walked down to the beach together. The sand was warm and the waves were small. Rosie saw many shells, but none of them moved. Then she saw a seagull standing very still on a rock. The seagull was looking at something in the water. Rosie ran to the rock and"," saw a big, yellow shell. Shelly was so happy! She picked it up and showed it to her grandpa. They both smiled and went back home.",,,,,,,
+long-01|balanced|0,long_context,"Once upon a time, there was a girl named Rosie who lived in a yellow house near the sea. Rosie had a pet turtle called Shelly. Every morning, Rosie fed Shelly green leaves and told her about her dreams. One morning, Rosie saw that Shelly was not in her box. Rosie was very worried. She looked in the kitchen, but Shelly was not there. She looked in the garden, but Shelly was not there either. Rosie asked her grandpa for help. Grandpa put on his big hat and said, ""Let's look by the sea."" They walked down to the beach together. The sand was warm and the waves were small. Rosie saw many shells, but none of them moved. Then she saw a seagull standing very still on a rock. The seagull was looking at something in the water. Rosie ran to the rock and", found a yellow shell. Shelly was so happy! She thanked her grandpa and the seagull and went home. Rosie was no longer worried. She had a good day with her yellow turtle.,,,,,,,
+long-01|balanced|1,long_context,"Once upon a time, there was a girl named Rosie who lived in a yellow house near the sea. Rosie had a pet turtle called Shelly. Every morning, Rosie fed Shelly green leaves and told her about her dreams. One morning, Rosie saw that Shelly was not in her box. Rosie was very worried. She looked in the kitchen, but Shelly was not there. She looked in the garden, but Shelly was not there either. Rosie asked her grandpa for help. Grandpa put on his big hat and said, ""Let's look by the sea."" They walked down to the beach together. The sand was warm and the waves were small. Rosie saw many shells, but none of them moved. Then she saw a seagull standing very still on a rock. The seagull was looking at something in the water. Rosie ran to the rock and"," found a beautiful shell. Shelly was so happy! She hugged her grandpa and said, ""Thank you for helping me feedlly to the sea."" From that day on, Rosie and her grandpa always looked out for their yellow house and the sea.",,,,,,,
+long-01|balanced|2,long_context,"Once upon a time, there was a girl named Rosie who lived in a yellow house near the sea. Rosie had a pet turtle called Shelly. Every morning, Rosie fed Shelly green leaves and told her about her dreams. One morning, Rosie saw that Shelly was not in her box. Rosie was very worried. She looked in the kitchen, but Shelly was not there. She looked in the garden, but Shelly was not there either. Rosie asked her grandpa for help. Grandpa put on his big hat and said, ""Let's look by the sea."" They walked down to the beach together. The sand was warm and the waves were small. Rosie saw many shells, but none of them moved. Then she saw a seagull standing very still on a rock. The seagull was looking at something in the water. Rosie ran to the rock and"," said, ""Look, there it is!"" Rosie saw the feather and she was so happy. Shelly thanked the seagull and they both went back home. Rosie was no longer worried and she and her turtle were happy.",,,,,,,
+rare-01|greedy|0,rare_vocabulary,The astronaut checked the oxygen gauge inside the spacecraft and," saw the stars twinkling. He was so excited to explore the space.
+
+He flew up to the stars and asked, ""What are you doing?""
+
+The stars replied, ""We are looking for a place to rest. We are so tired and need to rest.""
+
+The astronaut was so happy to hear this. He said, ""I can help you. I can take you to a place where you can rest.""
+
+The astronaut was so excited. He said, ""Yes, please! I can help you.""
+
+The astronaut and the stars flew off together. They flew over the space and saw lots of things. They saw a big mountain and a bright moon.
+
+The astronaut said, ""This is so much fun! I'm so glad we found this space.""
+
+The stars smiled and said, ""Me too. We can stay here for a while and rest.""
+
+The astronaut and the stars stayed in the space for a long time",,,,,,,
+rare-01|balanced|0,rare_vocabulary,The astronaut checked the oxygen gauge inside the spacecraft and," he was ready to go. He was driving in his spaceship, going to the stars!
+
+He had been driving for a long time and he was feeling so tired. Suddenly, he heard a loud noise and he got scared. He started to panic! He didn't know what was happening.
+
+He saw an engine turning around and it was getting closer and closer. He was so scared that he started to cry.
+
+The astronaut got out of his spaceship and ran to the safety of his planet. He was so relieved to see the astronaut waiting. The astronaut explained that the astronaut was there to help him feel better.
+
+The astronaut thanked the astronaut and then he gave him a big hug and said goodbye. The astronaut smiled and waved as the rocket disappeared into the sky.",,,,,,,
+rare-01|balanced|1,rare_vocabulary,The astronaut checked the oxygen gauge inside the spacecraft and," found it was very cheap. He looked closely and saw a tiny rocket inside.
+
+The astronaut smiled. He knew what he needed to do.
+
+He got out of his rocket and opened the door. He stepped inside and saw a small room. He opened the door and peeked inside.
+
+Inside the room was a room full of colorful books. He was excited! He picked up a book and opened it. Inside were lots of cool and interesting things.
+
+The astronaut smiled. He knew he could use the book to explore the world. He turned the pages and the rocket started moving. He was excited!
+
+The astronaut explored the world in the rocket. He found lots of interesting things and made lots of new friends. He had a great time.
+
+When it was time to go, the astronaut closed the rocket and got back in. He closed the door and went back home. He was happy he had found the cheap space to explore.",,,,,,,
+rare-01|balanced|2,rare_vocabulary,The astronaut checked the oxygen gauge inside the spacecraft and, was very excited. He had found the perfect spot to make his rocket shine. He looked around and saw a smooth rock in the space. He picked it up and put it in the spacecraft. Then he grabbed the trunk and closed the window. He smiled as he watched the rock sparkle. It was so beautiful. He was happy with his rocket and it made him feel like he was on an adventure. He knew he would never forget this special rock.,,,,,,,
+rare-02|greedy|0,rare_vocabulary,The archaeologist carefully brushed the dust off the ancient pottery and," put it in a special box. She was very proud of her work and wanted to show it to everyone.
+
+The archae arched around the room, showing off her work. Everyone was amazed by her work and praised her for her hard work.
+
+The archaeist was so happy that she decided to give her a special reward. She gave her a special box of candy as a reward.
+
+The archaeist was so excited and thanked the archae for her hard work. She was so proud of her reward and couldn't wait to show it off to her friends.",,,,,,,
+rare-02|balanced|0,rare_vocabulary,The archaeologist carefully brushed the dust off the ancient pottery and," he was pleased with his work. He had done a great job and he was proud of himself. 
+
+Suddenly, a little boy appeared in the field. He was very envious of the archaeist and he wanted to try it too. The archae writer said he could, but he had to ask the boy first. 
+
+The boy said he could do it, and he picked up the sackde and started to explore the archae. He tried to follow the archae but it was too hard. He stumbled and fell. 
+
+The archaeist rushed over to help. He grabbed the sackde and used his hands to pull it back up and the boy smiled with joy. He thanked the archaeist and promised to take care of the sackde. 
+
+The archaeist said it was the nicest thing he had ever seen and the boy agreed that he was the best archae ever",,,,,,,
+rare-02|balanced|1,rare_vocabulary,The archaeologist carefully brushed the dust off the ancient pottery and," handed it to the brave little girl. She had been given a special present and was so excited. She hugged her mom and thanked her for her gift.
+
+The little girl went outside to play in the garden. She saw a bunch of white flowers and decided to pick one. She hugged them gently and whispered ""I love you"".
+
+The archae attended the garden and started to pick the flowers. She picked some of the white ones and put them in her pocket. She smiled at her mom and said ""I love you too"".
+
+The archae attended the garden and stopped the archae to pick the flowers. She gathered them all and put them in a basket. Then she walked away, feeling happy and proud.",,,,,,,
+rare-02|balanced|2,rare_vocabulary,The archaeologist carefully brushed the dust off the ancient pottery and," placed it into the drain. He put a big rock in the drain and it sparkled.
+
+He worked very hard to fill the drain with dirt and rocks. He worked for a long time and was very tired.
+
+The mainter was very careful and worked slowly, and soon the drain was full. He was very proud of himself. He had completed the job.
+
+The mainter thanked the maintain for his hard work. He put the rock back into the drain and it sparkled in the sun.
+
+The mainter was happy and he went back to his work. He had completed the job and he was satisfied.",,,,,,,
+ood-01|greedy|0,out_of_domain,The quarterly revenue of the company increased because," he was the best singer in the world. He was so proud of his singing that he decided to show it to everyone.
+
+He went to the park and saw a little girl playing with a toy. He asked her if he could play with it, but she said no. He was so sad and felt like he had no one to play with.
+
+The little girl was very kind and asked him why he was so sad. He told her that he wanted to be the singer, but he couldn't.
+
+The little girl smiled and said, ""I can help you. I can make your voice louder and better."" She took out her toy microphone and started to sing.
+
+The little girl sang and sang until the singer was finished. He was so happy and thanked the little girl for her help.
+
+The little girl smiled and said, ""You're welcome. I'm glad I could help.""
+
+The singer was so happy that he started to sing",,,,,,,
+ood-01|balanced|0,out_of_domain,The quarterly revenue of the company increased because," he was special. He was sure to go on a special mission and make his own medicine for his family. 
+
+He went to a nearby shop and the shopkeeper was very rude to him. He said he was going to get him a special bottle of shampoo that would make his family feel better. 
+
+The dentist looked at theJoy and said it would be very helpful. He asked the shopkeeper to make a list of his needs to add the shampoo to his medicine. 
+
+The shopkeeper was so kind and generous. He added the labels to the search for the special shampoo and soon everyone had enough to drink it. 
+
+The dentist was so happy. He thanked the shopkeeper and gave him a big hug. From then on, he knew he was the best.",,,,,,,
+ood-01|balanced|1,out_of_domain,The quarterly revenue of the company increased because," he was the same age as the others. He was a kind and helpful person and he shared his ideas with everyone. 
+
+One day, the Dr. Eagle was feeling very hot. He wanted to find somewhere cool to cool off. He looked around and noticed a warm, cozy house. He knocked on the door and a kind lady opened it. She said, ""I have some extra special sauce you can use"". 
+
+The Dr. Eagle was very excited. He asked the kind lady, ""What kind of sauce is it?"". The kind lady smiled and said, ""It is sauce that will help you feel better. If you are kind to everyone, you will feel much better."" 
+
+The Dr. Eagle thanked the kind lady and said goodbye. He was happy to have found a warm and cozy house with delicious sauce.",,,,,,,
+ood-01|balanced|2,out_of_domain,The quarterly revenue of the company increased because," his friends were so much faster than him. He had so much fun running and playing with his friends, but he knew he had to be careful.
+
+One day, theddysely received a very special present. It was a toy car that he could play with every day. He was so excited that he rushed around the house and with his car in hand, he raced around the house.
+
+He was so proud of his car and couldn't wait to show it off to his friends. But when he opened the door, his friends were already there. They were all angry that he had been so careful with his car.
+
+Thehell was sad and embarrassed, but he was still determined to play with his car. So, he asked the available friend if they could play together. The friend agreed and they had lots of fun racing their cars around the house.",,,,,,,
+ood-02|greedy|0,out_of_domain,"To compute the derivative of x squared, we","andered the room. It was a very big and scary place.
+
+""What is this?"" asked the 3 year old.
+
+""It's an x-ray,"" said the doctor. ""It's a special machine that helps us see inside your body. It's very important.""
+
+The 3 year old was curious. ""What is an x-ray?""
+
+""It's a special machine that helps us see inside your body. It's like a special machine that helps us see inside your body. It's very important,"" explained the doctor.
+
+The 3 year old was amazed. ""Wow! That's so cool!"" he said.
+
+The doctor smiled. ""Yes, it is. It's very important. It helps us stay healthy and strong.""
+
+The 3 year old smiled. He was happy to know that he was going to be okay. He was glad he had been able to see the x-ray.",,,,,,,
+ood-02|balanced|0,out_of_domain,"To compute the derivative of x squared, we","ar a special paper. It was an enormous machine. It was huge! 
+
+One day, a three-year-old boy named Charlie saw the enormous machine. He was excited. He asked his mum, ""What is that big machine for?""
+
+Mum smiled. ""That is an x machine for you, Charlie. It is a special machine that helps me see in your body.""
+
+Charlie's eyes lit up. He watched as his dad carefully put a tiny machine on the wall. He watched as the machine whirred and moved around. 
+
+""That's amazing,"" said Dad.
+
+Charlie was amazed. He had never seen anything like it. He had never seen anything like it before. 
+
+From that day on, Charlie asked his dad if he could have an enormous machine too. His dad was so proud of him.",,,,,,,
+ood-02|balanced|1,out_of_domain,"To compute the derivative of x squared, we","ander.""
+
+Jeff looked up at his mom. She asked, ""What is a x?""
+
+""A machine,"" he said, pointing to a big box.
+
+His mom smiled and said, ""That's a very special machine. It helps us to check in to make sure we are safe.
+
+The next day, his mom said, ""Let's go to the zoo and see the x-ray.""
+
+Jeff was so excited. He had never been to the zoo before. He couldn't wait to see the x-ray.",,,,,,,
+ood-02|balanced|2,out_of_domain,"To compute the derivative of x squared, we","aved into an x-ray. It looked very scary.
+
+One day, a boy called Joe came to visit. He was only three years old and he had a big, deep voice.
+
+""Hello Joe, what are you doing here?"" asked his mother.
+
+""I'm here to check out this x-ray,"" Joe said.
+
+Joe's mother smiled. ""Oh wow, it looks very interesting! What is it?""
+
+Joe answered, ""It's a x-ray!""
+
+Joe's mother chuckled. ""Yes, it's very big and powerful. It's been here a long time.""
+
+Joe nodded. ""I know. I'm not so sure what's inside.""
+
+His mother chuckled. ""Well, it's a special kind of x-ray. It's something you need to keep track of your activities. But, I'm sure you'll love it!""
+
+Joe smiled and hugged his mother.",,,,,,,
+ood-03|greedy|0,out_of_domain,Question: What is the capital of France? Answer:," Neverse! Neverse France is a special kind of capture. It is a very special cap.
+
+One day, Twinchy was playing in the garden when he saw a butterfly. He wanted to catch it, so he ran after it. But the butterfly was too fast. Twinchy was getting tired, so he stopped and sat down.
+
+Suddenly, Twinchy heard a voice. It was his mom. She said, ""Twinchy, why don't you come and sit with me? I have something special for you.""
+
+Twinchy was excited. He followed his mom to the garden. There, he saw a beautiful butterfly. It was so beautiful. Twinchy was so happy. He watched it fly away and smiled.
+
+Twinchy was so proud of himself. He had seen something special and he had been able to catch it. He knew he would never forget this",,,,,,,
+ood-03|balanced|0,out_of_domain,Question: What is the capital of France? Answer:," School, Escape, produce! 
+Everybody has the same idea: Yuck! Oh no! Oh no! 
+Enough --I don't know what to do! 
+S involving these silly hats. 
+Enough: Oh no! Oh, no! Oh no! 
+Enough's friends started to laugh and scream. 
+Enough: Oh no! 
+Enough: Oh no! Oh no, Yeah! Yay! Yay! Oh no, I don't like the cap anymore. Yay! Yay! Yay!"" 
+Enough was so sad that his friends were so upset. He had lost the capief. 
+But then he had an idea. He ran to the store and bought some nice, sour lemons. 
+Enough and his friends were so happy. They all",,,,,,,
+ood-03|balanced|1,out_of_domain,Question: What is the capital of France? Answer:," Sing it to the Elephant! It is a very creative capination and it can teach us all kinds of things. 
+
+Each day, Quackers would go to the Elephant and ask for a special treat. He would bring a yummy snack, a hot chocolate, and a sweet treat for the Elephant.
+
+Each day, Quackers was very persistent. He asked the Elephant why he was so excited about his special treat.
+
+One day, Quackers noticed that the Elephant was getting a bit too hot. He asked him why he was so hot.
+
+The Elephant said, ""I am getting hot because I'm so thirsty. It's so hot that I can't cool down.""
+
+Emmy thought for a moment and then smiled. He said, ""I can help you. I can bring you some water from the stream. That way you won't be too hot!""
+
+The Elephant was",,,,,,,
+ood-03|balanced|2,out_of_domain,Question: What is the capital of France? Answer:," 40!
+
+The cap instruction: 400 is the person of Spicy, and it is important. 4000! 
+
+Squerine: 4000!
+
+One day, Squerine was walking in the park. Suddenly, a little girl stepped in front of her. She was only three years old.
+
+Squerine: ""Hello there! What is your name?""
+
+The little girl: ""My name is Emily!""
+
+Squerine: ""Nice to meet you, Emily. What is your name?""
+
+Emily: ""My name is Emily!""
+
+Cheerine: ""It's a good name for a girl like you!""
+
+Emily: ""I love you, Emily!""
+
+Cheerine: ""I love you too, Emily.""
+
+And they both smiled and continued their walk in the park.",,,,,,,
+sens-01a|greedy|0,prompt_sensitivity,"Once upon a time, there was a boy named Leo who loved trains."," He had a toy train that he played with every day. One day, Leo's mom told him they were going to the train station to see the real trains. Leo was so excited!
+
+At the station, Leo saw a big train with a lot of steam coming out of it. He asked his mom, ""What is that?"" His mom said, ""That's a train. It's a big train that goes around the tracks.""
+
+Leo was so happy to see the train. He asked his mom, ""Can we go on the train?"" His mom said, ""Yes, we can go on the train."" They got on the train and found a seat. Leo looked out the window and saw the big train go by. He said, ""Wow, it's so big!""
+
+After the train ride, Leo and his mom went to get some ice cream. Leo said, ""I want ice cream, please."" His mom said, ""Okay, let's",,,,,,,
+sens-01a|balanced|0,prompt_sensitivity,"Once upon a time, there was a boy named Leo who loved trains."," He had a toy train that he played with every day. One day, his friend Mia came over to play. Mia wanted to play with Leo's train, but Leo didn't want to share.
+
+""Can I play with your train, Mia?"" Leo asked.
+
+""No, it's mine!"" Mia replied.
+
+Leo felt sad and started to cry. Mia felt bad and decided to share her train with Leo. They played together and had a lot of fun.
+
+From that day on, Leo learned that sharing is important and it's better to be kind to others. He never let Mia play with his train again, and they continued to play together happily.",,,,,,,
+sens-01a|balanced|1,prompt_sensitivity,"Once upon a time, there was a boy named Leo who loved trains."," He had a toy train he played with every day. One day, he accidentally broke the train. He felt sad and didn't know what to do. 
+
+Leo's mom saw him feeling upset and asked him what was wrong. Leo told her that his train was broken and he didn't know how to fix it. His mom smiled and said, ""Don't worry, I can fix it for you."" 
+
+She took out some glue and tape and fixed the train. Leo was so happy! He hugged his mom and said, ""Thank you for fixing my train!"" His mom smiled and said, ""I'm glad I could help you."" From that day on, Leo was more careful with his toys and never broke them again.",,,,,,,
+sens-01a|balanced|2,prompt_sensitivity,"Once upon a time, there was a boy named Leo who loved trains."," He had a toy train that he played with every day. One day, Leo's mom took him to the train station to ride. Leo was so excited to ride the train. 
+
+As they were riding the train, Leo noticed a big, black train coming towards him. He tried to warn his mom, but she didn't hear him. Leo was scared and started to cry. 
+
+Suddenly, the train hit a bump and Leo fell off. He was okay, but his mom was very worried. She called an ambulance to take him to the hospital. 
+
+After the visit, Leo learned that he should always listen to his mom and be careful when riding trains.",,,,,,,
+sens-01b|greedy|0,prompt_sensitivity,"There once was a little boy called Leo, and he really loved trains."," He had a big collection of trains, and he loved to play with them.
+
+One day, Leo was playing with his trains when he heard a loud noise. He looked up and saw a big train coming towards him. Leo was scared and he ran to his mom.
+
+""Mom, mom, there's a big train coming!"" he cried.
+
+""Don't worry, Leo. It's just a train. It's not going to hurt you,"" his mom said.
+
+""But I don't like trains. They are too loud and too fast,"" Leo said.
+
+""I know, Leo. But trains are not toys. They are for people who work hard and help people. They are very important and very important. They are not toys. They are for people who need them,"" his mom said.
+
+Leo looked at the train and saw that it was very big and very loud. He felt a little scared, but he also felt curious",,,,,,,
+sens-01b|balanced|0,prompt_sensitivity,"There once was a little boy called Leo, and he really loved trains."," Every day, he would go to the train station and watch the trains go by.
+
+One day, Leo was walking around the station when he saw a big, shiny train coming. He was so excited! He wanted to get on the train and go on an adventure.
+
+Leo asked the conductor, ""Can I get on the train?""
+
+The conductor smiled and said, ""Yes, you can!""
+
+Leo jumped onto the train and it started to move. He was so happy to be on the train. He looked out the window and saw the clouds and the trees. He was so excited to go on the adventure.
+
+Leo waved goodbye to the conductor as he left the station. He knew he would be back soon to get on the train. He was so happy he had such a wonderful adventure!",,,,,,,
+sens-01b|balanced|1,prompt_sensitivity,"There once was a little boy called Leo, and he really loved trains."," Every day, he would take his toy train and play with it in the garden.
+
+One day, Leo decided to take his train to the park. He was so excited! As he was walking, he saw a little girl playing with a doll. He walked over to her and said, ""Hi! Can I play with you?""
+
+The little girl smiled and said, ""Sure! What do you want to do?""
+
+Leo smiled and said, ""Let's play a game! I'll give you a push of my train and you can have a go!""
+
+The little girl thought this sounded like a lot of fun. So, the two of them had a great time playing together. They took turns pushing the train around the park and taking turns pushing it.
+
+Leo and the little girl had lots of fun that day. They had so much fun!",,,,,,,
+sens-01b|balanced|2,prompt_sensitivity,"There once was a little boy called Leo, and he really loved trains."," He had a toy train that he loved to play with, and he played with it every day.
+
+One day, Leo was playing with his train when he heard a loud noise. He looked up and saw a big black train coming down the road. Leo was scared, but he knew he had to protect his train. He got out of his room and ran to the big black train.
+
+The big black train stopped and the conductor got out. He saw Leo holding his train and asked him why he was playing with it. Leo told the conductor he was playing with his train. The conductor smiled and said he was glad that he could protect his train.
+
+The conductor asked Leo to show him his train. Leo nodded and pointed to the train, and the conductor helped him put the train on the ground. Leo was very excited and he thanked the conductor for being so helpful.
+
+The conductor smiled",,,,,,,
+sens-02a|greedy|0,prompt_sensitivity,Once upon a time,", there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. She wanted to play with it, but it was too high up. 
+
+Lily asked her mommy, ""Can you help me get the ball down?"" 
+
+Her mommy said, ""Sure, let's go get it."" 
+
+They went to the store and bought the ball. Lily was so happy! She played with it all day long. 
+
+But then, the ball started to get too high up in the sky. Lily said, ""Mommy, the ball is too high. Can we get it down?"" 
+
+Her mommy said, ""No, we can't get it down. But we can play with it again tomorrow."" 
+
+Lily was sad, but she knew her mommy was right. She went to bed that night dreaming of playing with her new ball again.",,,,,,,
+sens-02a|balanced|0,prompt_sensitivity,Once upon a time,", there was a little girl named Lily. She loved to play outside and explore the world around her. One day, she went to the park and saw a boy with a broken toy. She felt sad for him and wanted to help him.
+
+Lily went over to the boy and said, ""I will deliver this toy to you."" The boy was happy and said, ""Thank you, Lily. You are so kind.""
+
+As they walked to the park, the boy's car stopped at a gas station. The boy's mommy asked him, ""What's wrong, Timmy?"" Timmy explained, ""My car has a broken wheel and it's hurting it.""
+
+The boy's mommy was grateful for his help and said, ""Thank you, Timmy. You are very kind."" Timmy smiled and continued to walk with his mommy, feeling happy that he could help someone.",,,,,,,
+sens-02a|balanced|1,prompt_sensitivity,Once upon a time,", there was a little girl named Lily. She loved to play outside with her friends. One day, Lily saw a man with a big bag of candy. She asked him if she could have some. The man said yes and gave her a small bag.
+
+Lily took the candy and went to play with her friends. But when she got there, she saw that her friends were sad. They didn't have any candy to eat. Lily remembered that she had some candy in her bag. She gave some to her friends and they were happy again.
+
+Lily felt good that she could share her candy with her friends. She learned that sharing is important and makes everyone happy. From that day on, Lily always shared her candy with her friends.",,,,,,,
+sens-02a|balanced|2,prompt_sensitivity,Once upon a time,", there was a little boy named Timmy. Timmy loved to eat yummy food. One day, Timmy's mom made him a big bowl of spaghetti for dinner. Timmy was so excited to eat it!
+
+But when Timmy took a bite, he noticed something disgusting on his plate. It was a piece of cheese! Timmy didn't want to eat it, but his mom told him that it was good for him.
+
+After dinner, Timmy's dad came home from work. He had a big bag of spaghetti for dinner. Timmy was so happy! He ate all of his spaghetti and his mom was happy too because she knew she made the right choice.",,,,,,,
+sens-02b|greedy|0,prompt_sensitivity,"Once upon a time,"," there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the sky. She wanted to play with it, but it was too high up. 
+
+Lily asked her mommy, ""Can you help me get the ball down?"" 
+
+Her mommy said, ""Sure, let's go get it."" 
+
+They went to the store and bought the ball. Lily was so happy! She played with it all day long. 
+
+But then, the ball started to get too high up in the sky. Lily said, ""Mommy, the ball is too high. Can we get it down?"" 
+
+Her mommy said, ""No, we can't get it down. But we can play with it again tomorrow."" 
+
+Lily was sad, but she knew her mommy was right. She went to bed that night dreaming of playing with her new ball again.",,,,,,,
+sens-02b|balanced|0,prompt_sensitivity,"Once upon a time,"," there was a little girl named Lily. She loved to play with her toys and run around outside. One day, she saw a mysterious box in the park. She was very curious and wanted to know what was inside.
+
+Lily asked her mommy, ""What's in the box, mommy?"" Her mommy replied, ""I don't know, let's open it and see!"" They opened the box and found a beautiful dress inside. Lily was so happy and said, ""Thank you, mommy! This is so much fun!""
+
+Her mommy smiled and said, ""You're welcome, sweetie. Remember to always be careful with things that don't belong to you."" From that day on, Lily always made sure to ask before opening anything that didn't belong to her. And she continued to play with her toys and run around with her new dress. The end.",,,,,,,
+sens-02b|balanced|1,prompt_sensitivity,"Once upon a time,"," there was a little girl named Lily. She had a toy car that she loved to play with. One day, Lily's friend Timmy came over to play. Timmy saw Lily's toy car and asked if he could play with it. Lily said yes, but she had to wait until Timmy was not looking.
+
+Lily was very impatient and wanted to play with the toy car now. She tried to take it from Timmy, but he held it tight and said no. Lily got upset and started to cry. Timmy felt bad and said sorry. He asked Lily if she wanted to play with his car, but Lily said no.
+
+Lily realized that Timmy was being selfish and decided to share her toy car with him. They played together and had lots of fun. From that day on, Lily and Timmy played together with the toy car every day.",,,,,,,
+sens-02b|balanced|2,prompt_sensitivity,"Once upon a time,"," there was a little girl named Lily. She loved to play with her toys and her friends. One day, Lily and her friend Timmy went to the park to play.
+
+Timmy said, ""Lily, I'm scared of the dark. I want to go home.""
+
+Lily replied, ""Don't be scared, Timmy. It's just a big storm. We can play hide and seek and it will be fun!""
+
+So, they played hide and seek and had a great time. But then, it started to rain. Lily said, ""Oh no, Timmy. We need to go home now. I don't want to get wet.""
+
+Timmy said, ""Okay, Lily. Let's go home now."" And they went home, happy and safe.",,,,,,,

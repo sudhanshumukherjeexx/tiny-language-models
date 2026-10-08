@@ -1,0 +1,57 @@
+{
+  "summary": {
+    "generation": {
+      "count": 92,
+      "similarity_median": 0.25480013224481646,
+      "similarity_p95": 0.3806346515157879,
+      "similarity_max": 0.45107992462378466,
+      "ngram_overlap_mean": {
+        "8": 0.4749069384868686,
+        "16": 0.04887072875695774,
+        "32": 0.00014590020426028595
+      },
+      "share_with_any_verbatim_ngram": {
+        "8": 1.0,
+        "16": 0.5978260869565217,
+        "32": 0.021739130434782608
+      },
+      "longest_common_span_words_median": 6.0,
+      "longest_common_span_words_max": 17,
+      "flagged": 2
+    },
+    "heldout_test": {
+      "count": 200,
+      "similarity_median": 0.25000236107324786,
+      "similarity_p95": 0.3765121833501858,
+      "similarity_max": 0.5042329205359058,
+      "ngram_overlap_mean": {
+        "8": 0.3575168315239048,
+        "16": 0.05490646341520878,
+        "32": 0.0038841858571761877
+      },
+      "share_with_any_verbatim_ngram": {
+        "8": 1.0,
+        "16": 0.57,
+        "32": 0.075
+      },
+      "longest_common_span_words_median": 7.0,
+      "longest_common_span_words_max": 50,
+      "flagged": 15
+    }
+  },
+  "thresholds": {
+    "similarity": 0.8,
+    "verbatim_ngram": 32,
+    "common_span_words": 30
+  },
+  "ngram_sizes_tokens": [
+    8,
+    16,
+    32
+  ],
+  "train_tokens_scanned": 464403968,
+  "train_stories_searched": 2109002,
+  "tokenizer_sha256": "ce7e3da533b1865ada4ddc9e01b9312c3c0854555fe794f657297d637eb1b605",
+  "generations_file": "runs/tiny-27m/evaluation/generation_samples.jsonl",
+  "retrieval": "TF-IDF cosine, word 1-2-grams, 2^20 hashed features, IDF from 100k-story sample"
+}

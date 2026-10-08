@@ -1,0 +1,15 @@
+{
+  "provenance": "Printed by notebook cells 0.1-0.3 of the original execution.",
+  "hardware": "NVIDIA A100-SXM4-40GB",
+  "gpu_memory_gb": 42.4,
+  "compute_capability": "8.0",
+  "driver": "580.82.07",
+  "cuda_driver_api": "13.0",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.13.1",
+  "datasets": "4.0.0",
+  "tokenizers": "0.22.2",
+  "python": null,
+  "platform": "Google Colab",
+  "date": "2026-08-06"
+}

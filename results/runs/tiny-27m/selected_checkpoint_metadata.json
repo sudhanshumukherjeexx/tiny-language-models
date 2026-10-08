@@ -1,0 +1,13 @@
+{
+  "selected_by": "validation_loss",
+  "step": 12000,
+  "validation_loss": 1.3894693449882178,
+  "run_id": "tiny-27m-20261007-003023-255434",
+  "dataset": "roneneldan/TinyStories",
+  "dataset_revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64",
+  "tokenizer_sha256": "ce7e3da533b1865ada4ddc9e01b9312c3c0854555fe794f657297d637eb1b605",
+  "train_split_tokens": 464403968,
+  "planned_epochs": 0.9525500006063686,
+  "initialization_loss": 9.122282028198242,
+  "architecture": "llama"
+}

@@ -1,0 +1,18 @@
+{
+  "python": "3.12.15",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "torch": "2.14.1+cu130",
+  "transformers": "5.18.0",
+  "tokenizers": "0.23.2",
+  "datasets": "5.1.0",
+  "numpy": "2.5.3",
+  "device": "cuda",
+  "hardware": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+  "cpu_count": 8,
+  "git_commit": "0c966c4071defde6473e04c3c97a031fc1f5d407-dirty",
+  "cuda": "13.0",
+  "cudnn": 92400,
+  "gpu_memory_gb": 4.0,
+  "compute_capability": "8.6",
+  "bf16_supported": true
+}

@@ -13,9 +13,9 @@ dist/
 
 # Data, tokenizers, checkpoints and run outputs are produced by the pipeline,
 # never committed. Curated, small result files live under results/.
-data/
-runs/
-checkpoints/
+/data/
+/runs/
+/checkpoints/
 *.safetensors
 *.bin
 *.pt

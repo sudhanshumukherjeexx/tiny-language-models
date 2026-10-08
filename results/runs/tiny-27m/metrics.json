@@ -1,0 +1,49 @@
+{
+  "run_id": "tiny-27m-20261007-003023-255434",
+  "name": "tiny-27m",
+  "status": "completed",
+  "git_commit": "0c966c4071defde6473e04c3c97a031fc1f5d407-dirty",
+  "seed": 1337,
+  "hardware": [
+    "NVIDIA GeForce RTX 3050 Ti Laptop GPU"
+  ],
+  "precision": "bf16",
+  "parameters": 26747392,
+  "steps": 12000,
+  "training_tokens": 442368000,
+  "tokens_per_parameter": 16.5387339446029,
+  "wall_clock_seconds": 22549.6751050998,
+  "train_seconds": 20923.598231309326,
+  "tokens_per_second": 21142.06147095944,
+  "final_train_loss": 1.3551628291606903,
+  "best_validation_loss": 1.3894693449882178,
+  "best_validation_perplexity": 4.012720117872382,
+  "best_step": 12000,
+  "best_checkpoint": "runs\\tiny-27m\\best",
+  "peak_vram_allocated_mb": 1772.9765625,
+  "peak_vram_reserved_mb": 2846.0,
+  "invocations": [
+    {
+      "started_at": "2026-10-07T00:30:23+00:00",
+      "start_step": 0,
+      "hardware": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+      "precision": "bf16",
+      "micro_batch": 8,
+      "grad_accum": 9,
+      "git_commit": "0c966c4071defde6473e04c3c97a031fc1f5d407-dirty",
+      "train_seconds": 20923.598231309326,
+      "tokens": 442368000,
+      "end_step": 12000,
+      "status": "completed",
+      "wall_clock_seconds": 22549.6751050998,
+      "tokens_per_second": 21142.06147095944
+    }
+  ],
+  "dataset": "roneneldan/TinyStories",
+  "dataset_revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64",
+  "tokenizer_sha256": "ce7e3da533b1865ada4ddc9e01b9312c3c0854555fe794f657297d637eb1b605",
+  "train_split_tokens": 464403968,
+  "planned_epochs": 0.9525500006063686,
+  "initialization_loss": 9.122282028198242,
+  "architecture": "llama"
+}

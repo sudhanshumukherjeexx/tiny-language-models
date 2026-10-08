@@ -1,0 +1,119 @@
+{
+  "by_preset": {
+    "balanced": {
+      "generations": 69,
+      "mean_words": 123.66666666666667,
+      "mean_new_tokens": 160.3913043478261,
+      "eos_rate": 0.7391304347826086,
+      "distinct_1": 0.1060588304230634,
+      "distinct_2": 0.49562854442344045,
+      "repeated_4gram_fraction": 0.01585340104966092,
+      "sentence_repetition_ratio": 0.006211180124223602
+    },
+    "greedy": {
+      "generations": 23,
+      "mean_words": 132.0,
+      "mean_new_tokens": 173.17391304347825,
+      "eos_rate": 0.5652173913043478,
+      "distinct_1": 0.15744400527009222,
+      "distinct_2": 0.5516096913375373,
+      "repeated_4gram_fraction": 0.03273651830634149,
+      "sentence_repetition_ratio": 0.001976284584980237
+    }
+  },
+  "by_category": {
+    "causal_reasoning": {
+      "generations": 12,
+      "mean_words": 123.83333333333333,
+      "mean_new_tokens": 160.08333333333334,
+      "eos_rate": 0.8333333333333334,
+      "distinct_1": 0.2032301480484522,
+      "distinct_2": 0.6139755766621439,
+      "repeated_4gram_fraction": 0.03600822979918034,
+      "sentence_repetition_ratio": 0.0
+    },
+    "character_consistency": {
+      "generations": 8,
+      "mean_words": 141.75,
+      "mean_new_tokens": 177.25,
+      "eos_rate": 0.375,
+      "distinct_1": 0.24074074074074073,
+      "distinct_2": 0.6971580817051509,
+      "repeated_4gram_fraction": 0.007017018079199743,
+      "sentence_repetition_ratio": 0.0
+    },
+    "dialogue": {
+      "generations": 4,
+      "mean_words": 88.0,
+      "mean_new_tokens": 114.0,
+      "eos_rate": 1.0,
+      "distinct_1": 0.38636363636363635,
+      "distinct_2": 0.7729885057471264,
+      "repeated_4gram_fraction": 0.005693581780538302,
+      "sentence_repetition_ratio": 0.0
+    },
+    "in_domain_opening": {
+      "generations": 20,
+      "mean_words": 133.05,
+      "mean_new_tokens": 171.0,
+      "eos_rate": 0.65,
+      "distinct_1": 0.16309658023299511,
+      "distinct_2": 0.5940931465354032,
+      "repeated_4gram_fraction": 0.020748068888213865,
+      "sentence_repetition_ratio": 0.0022727272727272726
+    },
+    "long_context": {
+      "generations": 4,
+      "mean_words": 33.75,
+      "mean_new_tokens": 42.0,
+      "eos_rate": 1.0,
+      "distinct_1": 0.4444444444444444,
+      "distinct_2": 0.7480916030534351,
+      "repeated_4gram_fraction": 0.0,
+      "sentence_repetition_ratio": 0.0
+    },
+    "out_of_domain": {
+      "generations": 12,
+      "mean_words": 128.66666666666666,
+      "mean_new_tokens": 183.66666666666666,
+      "eos_rate": 0.5833333333333334,
+      "distinct_1": 0.2551813471502591,
+      "distinct_2": 0.683420365535248,
+      "repeated_4gram_fraction": 0.027173752319880087,
+      "sentence_repetition_ratio": 0.027777777777777776
+    },
+    "prompt_sensitivity": {
+      "generations": 16,
+      "mean_words": 134.75,
+      "mean_new_tokens": 171.8125,
+      "eos_rate": 0.8125,
+      "distinct_1": 0.16697588126159554,
+      "distinct_2": 0.5485981308411215,
+      "repeated_4gram_fraction": 0.01815762994649106,
+      "sentence_repetition_ratio": 0.0
+    },
+    "rare_vocabulary": {
+      "generations": 8,
+      "mean_words": 126.25,
+      "mean_new_tokens": 159.0,
+      "eos_rate": 0.75,
+      "distinct_1": 0.27722772277227725,
+      "distinct_2": 0.6956087824351297,
+      "repeated_4gram_fraction": 0.019390619735497036,
+      "sentence_repetition_ratio": 0.011904761904761904
+    },
+    "story_completion": {
+      "generations": 8,
+      "mean_words": 136.375,
+      "mean_new_tokens": 180.25,
+      "eos_rate": 0.5,
+      "distinct_1": 0.23281393217231897,
+      "distinct_2": 0.703601108033241,
+      "repeated_4gram_fraction": 0.018640240186983882,
+      "sentence_repetition_ratio": 0.0
+    }
+  },
+  "suite_version": 1,
+  "skipped_prompts": [],
+  "note": "Lexical diagnostics, not a quality score."
+}
