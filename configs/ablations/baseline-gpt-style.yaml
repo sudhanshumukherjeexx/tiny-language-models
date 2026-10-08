@@ -1,0 +1,11 @@
+# GPT-2 recipe: learned absolute positions, LayerNorm, GELU MLP, multi-head attention.
+extends: _budget.yaml
+name: ablation-baseline-gpt-style
+model:
+  position_encoding: learned
+  norm: layernorm
+  ffn: gelu
+  num_key_value_heads: 8
+  intermediate_size: 1696         # 26,756,096 params (+0.03%)
+training:
+  output_dir: runs/ablations/baseline-gpt-style

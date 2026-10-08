@@ -1,0 +1,9 @@
+# A100 (Ampere): bf16 autocast, no loss scaling needed.
+# The legacy notebook run used this hardware with these batch settings
+# (see results/runs/legacy-colab-a100/).
+extends: tiny-27m.yaml
+name: tiny-27m-a100
+
+training:
+  output_dir: runs/tiny-27m-a100
+  precision: bf16

@@ -1,0 +1,20 @@
+# Shared, reduced budget for the architecture ablations (not the full run).
+# Every variant: same data order, tokens, optimizer, schedule, evaluation;
+# same implementation (tinylm.educational.ReferenceDecoder); total parameters
+# matched to the production model within 0.05% by adjusting only the FFN width.
+# Budget: 1,500 steps x 32 sequences x 512 tokens = 24,576,000 training tokens.
+extends: ../tiny-27m.yaml
+
+model:
+  architecture: reference
+
+training:
+  max_steps: 1500
+  warmup_steps: 100
+  per_device_train_batch_size: 16
+  gradient_accumulation_steps: 2
+  eval_batch_size: 16
+  eval_every: 250
+  save_every: 500
+  eval_max_batches: 50            # fast in-run curve; the final score uses the full split
+  keep_last_checkpoints: 1

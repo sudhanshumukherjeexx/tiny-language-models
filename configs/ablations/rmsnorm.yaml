@@ -1,0 +1,11 @@
+# + RMSNorm instead of LayerNorm.
+extends: _budget.yaml
+name: ablation-rmsnorm
+model:
+  position_encoding: rope
+  norm: rmsnorm
+  ffn: gelu
+  num_key_value_heads: 8
+  intermediate_size: 1728         # 26,747,392 params (+0.00%)
+training:
+  output_dir: runs/ablations/rmsnorm

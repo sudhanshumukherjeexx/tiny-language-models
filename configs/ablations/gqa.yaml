@@ -1,0 +1,11 @@
+# + grouped-query attention (2 KV heads): the production architecture.
+extends: _budget.yaml
+name: ablation-gqa
+model:
+  position_encoding: rope
+  norm: rmsnorm
+  ffn: swiglu
+  num_key_value_heads: 2
+  intermediate_size: 1408         # 26,747,392 params: identical to configs/tiny-27m.yaml
+training:
+  output_dir: runs/ablations/gqa

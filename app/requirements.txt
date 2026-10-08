@@ -1,0 +1,3 @@
+# Hugging Face Spaces installs these; the tinylm package provides model loading.
+tinylm @ git+https://github.com/sudhanshumukherjeexx/tiny-language-models
+gradio>=5.0

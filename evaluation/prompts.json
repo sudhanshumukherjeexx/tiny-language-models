@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "description": "Fixed generation suite for TinyLM. Prompts are grouped by the behaviour they probe; 'expected' says what a good continuation does, so failures can be labelled consistently. Do not edit prompts in place: add new ids and bump the version.",
+  "prompts": [
+    {"id": "open-01", "category": "in_domain_opening", "prompt": "Once upon a time", "expected": "A complete, coherent short story."},
+    {"id": "open-02", "category": "in_domain_opening", "prompt": "One day, a little girl named Lily", "expected": "Coherent story centred on Lily."},
+    {"id": "open-03", "category": "in_domain_opening", "prompt": "Tom and Sara were playing in the garden when they found", "expected": "Names the found object and builds a plot around it."},
+    {"id": "open-04", "category": "in_domain_opening", "prompt": "The little cat was very hungry, so she", "expected": "Actions consistent with hunger."},
+    {"id": "open-05", "category": "in_domain_opening", "prompt": "Once upon a time, a small rabbit", "expected": "Coherent animal story."},
+
+    {"id": "char-01", "category": "character_consistency", "prompt": "Max was a brown dog who could not swim. One hot day, Max went to the lake with his friend Bella, a white duck.", "expected": "Max does not swim unaided; Bella stays a duck; names and species stay fixed."},
+    {"id": "char-02", "category": "character_consistency", "prompt": "Anna had a red ball and her brother Ben had a blue kite.", "expected": "Ownership of the ball and kite stays consistent."},
+
+    {"id": "cause-01", "category": "causal_reasoning", "prompt": "It started to rain, so Mia", "expected": "A response that follows from rain (umbrella, going inside...)."},
+    {"id": "cause-02", "category": "causal_reasoning", "prompt": "Sam dropped the glass on the floor and it", "expected": "The glass breaks or bounces; consequences follow."},
+    {"id": "cause-03", "category": "causal_reasoning", "prompt": "The ice cream was left in the sun for a long time. When Jack came back,", "expected": "The ice cream has melted."},
+
+    {"id": "dialog-01", "category": "dialogue", "prompt": "\"Can I have a cookie?\" asked Tim. His mom said,", "expected": "A reply that answers Tim's question."},
+
+    {"id": "end-01", "category": "story_completion", "prompt": "Lily looked everywhere for her lost teddy bear. She looked under the bed and in the garden. At last,", "expected": "Resolves the search and ends the story."},
+    {"id": "end-02", "category": "story_completion", "prompt": "Ben and his dad built a sandcastle. Then a big wave came and", "expected": "Consequence, reaction, and an ending."},
+
+    {"id": "long-01", "category": "long_context", "prompt": "Once upon a time, there was a girl named Rosie who lived in a yellow house near the sea. Rosie had a pet turtle called Shelly. Every morning, Rosie fed Shelly green leaves and told her about her dreams. One morning, Rosie saw that Shelly was not in her box. Rosie was very worried. She looked in the kitchen, but Shelly was not there. She looked in the garden, but Shelly was not there either. Rosie asked her grandpa for help. Grandpa put on his big hat and said, \"Let's look by the sea.\" They walked down to the beach together. The sand was warm and the waves were small. Rosie saw many shells, but none of them moved. Then she saw a seagull standing very still on a rock. The seagull was looking at something in the water. Rosie ran to the rock and", "expected": "Keeps Rosie, Shelly (a turtle), grandpa and the beach setting consistent with ~200 tokens of context."},
+
+    {"id": "rare-01", "category": "rare_vocabulary", "prompt": "The astronaut checked the oxygen gauge inside the spacecraft and", "expected": "Sensible use of out-of-distribution vocabulary."},
+    {"id": "rare-02", "category": "rare_vocabulary", "prompt": "The archaeologist carefully brushed the dust off the ancient pottery and", "expected": "Sensible use of rare words."},
+
+    {"id": "ood-01", "category": "out_of_domain", "prompt": "The quarterly revenue of the company increased because", "expected": "Out of domain: expected to fail or drift back to story register."},
+    {"id": "ood-02", "category": "out_of_domain", "prompt": "To compute the derivative of x squared, we", "expected": "Out of domain: expected to fail."},
+    {"id": "ood-03", "category": "out_of_domain", "prompt": "Question: What is the capital of France? Answer:", "expected": "Out of domain: the model is not an assistant and has no world-knowledge training."},
+
+    {"id": "sens-01a", "category": "prompt_sensitivity", "group": "sens-01", "prompt": "Once upon a time, there was a boy named Leo who loved trains.", "expected": "Compare with sens-01b: same content, different wording."},
+    {"id": "sens-01b", "category": "prompt_sensitivity", "group": "sens-01", "prompt": "There once was a little boy called Leo, and he really loved trains.", "expected": "Compare with sens-01a."},
+    {"id": "sens-02a", "category": "prompt_sensitivity", "group": "sens-02", "prompt": "Once upon a time", "expected": "Compare with sens-02b (trailing comma)."},
+    {"id": "sens-02b", "category": "prompt_sensitivity", "group": "sens-02", "prompt": "Once upon a time,", "expected": "Compare with sens-02a."}
+  ]
+}

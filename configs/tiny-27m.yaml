@@ -1,0 +1,67 @@
+# TinyLM-27M: the main experiment.
+# Llama-style decoder (RoPE, RMSNorm, SwiGLU, GQA, tied embeddings) pretrained
+# from random initialization on TinyStories. 26,747,392 parameters.
+name: tiny-27m
+description: Llama-style 27M decoder pretrained from random initialization on TinyStories.
+
+model:
+  architecture: llama
+  vocab_size: 8192
+  hidden_size: 512
+  num_hidden_layers: 8
+  num_attention_heads: 8
+  num_key_value_heads: 2          # GQA: 4 query heads share each K/V head
+  intermediate_size: 1408         # SwiGLU hidden ~= 8/3 * hidden_size, rounded to a multiple of 64
+  max_position_embeddings: 512
+  rope_theta: 10000.0
+  norm_eps: 1.0e-5
+  initializer_range: 0.02
+  tie_word_embeddings: true
+  attn_implementation: sdpa       # PyTorch scaled_dot_product_attention
+
+data:
+  dataset_name: roneneldan/TinyStories
+  dataset_revision: null          # resolved commit SHA is recorded in data/<...>/text/text_meta.json
+  source_train_split: train       # -> train + validation (hash-held-out)
+  source_test_split: validation   # -> untouched TEST split
+  validation_fraction: 0.005
+  min_chars: 100
+  block_size: 512
+  packing: true
+  data_dir: data/tinystories
+  normalization:
+    unicode_form: NFKC
+    ascii_punctuation: true
+    strip_non_ascii: false        # byte-level BPE encodes any byte; see docs/design-decisions.md
+
+tokenizer:
+  vocab_size: 8192
+  min_frequency: 2
+  path: data/tokenizer-8k
+
+training:
+  seed: 1337
+  output_dir: runs/tiny-27m
+  max_steps: 12000
+  per_device_train_batch_size: 24
+  gradient_accumulation_steps: 3  # 72 sequences = 36,864 tokens per optimizer step
+  eval_batch_size: 24
+  learning_rate: 6.0e-4
+  min_lr_ratio: 0.0
+  lr_scheduler: cosine
+  warmup_steps: 200
+  weight_decay: 0.1
+  adam_beta1: 0.9
+  adam_beta2: 0.95
+  gradient_clip_norm: 1.0
+  precision: auto                 # bf16 on Ampere+, fp16 on T4/older, fp32 on CPU
+  log_every: 20
+  eval_every: 250
+  save_every: 250
+  keep_last_checkpoints: 2
+
+evaluation:
+  prompts_path: evaluation/prompts.json
+  presets: [greedy, balanced]
+  seeds: [0, 1, 2]
+  max_new_tokens: 200

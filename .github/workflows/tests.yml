@@ -1,0 +1,28 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: tests-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      - name: Install (CPU-only torch from the locked environment)
+        run: uv sync --locked --extra cpu
+      - name: Run CPU test suite
+        # Tiny fixtures only: nothing is downloaded and nothing is pretrained.
+        run: uv run pytest
+      - name: CLI smoke check (--help for every script)
+        run: |
+          for s in scripts/*.py; do uv run python "$s" --help > /dev/null; done

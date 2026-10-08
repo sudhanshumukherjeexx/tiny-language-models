@@ -1,0 +1,30 @@
+# Provenance record: the settings of the original notebook run whose outputs
+# are archived in results/runs/legacy-colab-a100/. Kept for traceability, not
+# for new runs. It differs from configs/tiny-27m.yaml in three ways that the
+# current pipeline deliberately changed:
+#   1. strip_non_ascii: true      (now false: byte-level BPE needs no ASCII filter)
+#   2. the official validation split was used for checkpoint selection
+#      (now a hash-held-out slice of train is; the official split is TEST)
+#   3. packing dropped a remainder per 1,000-story map batch
+#      (now only the final global remainder is dropped)
+# The legacy loss curve also shows a discontinuity at step ~4,000; see
+# results/runs/legacy-colab-a100/README.md.
+extends: ../tiny-27m.yaml
+name: legacy-colab-a100
+
+data:
+  validation_fraction: 0.005      # not applicable to the legacy run (see note 2)
+  data_dir: data/legacy
+  normalization:
+    unicode_form: NFKC
+    ascii_punctuation: true
+    strip_non_ascii: true
+
+tokenizer:
+  path: data/tokenizer-legacy
+
+training:
+  output_dir: runs/legacy
+  precision: bf16
+  save_every: 250
+  keep_last_checkpoints: 3

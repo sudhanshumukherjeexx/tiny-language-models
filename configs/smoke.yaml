@@ -1,0 +1,38 @@
+# End-to-end pipeline check in minutes on a laptop CPU/GPU. Not a result.
+# Tiny model, 2,000 training stories, 1,024-token vocabulary.
+extends: tiny-27m.yaml
+name: smoke
+
+model:
+  vocab_size: 1024
+  hidden_size: 128
+  num_hidden_layers: 2
+  num_attention_heads: 4
+  num_key_value_heads: 2
+  intermediate_size: 352
+  max_position_embeddings: 256
+
+data:
+  block_size: 256
+  max_train_examples: 2000
+  data_dir: data/smoke
+
+tokenizer:
+  vocab_size: 1024
+  path: data/tokenizer-smoke
+
+training:
+  output_dir: runs/smoke
+  max_steps: 60
+  warmup_steps: 10
+  per_device_train_batch_size: 8
+  gradient_accumulation_steps: 1
+  eval_batch_size: 8
+  eval_every: 20
+  save_every: 20
+  eval_max_batches: 10
+  log_every: 10
+
+evaluation:
+  seeds: [0]
+  max_new_tokens: 40

@@ -1,0 +1,14 @@
+# Free-tier Colab T4 (Turing, 16 GB): no bf16 support, so fp16 with loss scaling.
+# This is a configured target, not a measured result: no T4 run is recorded in
+# results/. Run scripts/benchmark.py on a T4 to measure throughput and memory.
+extends: tiny-27m.yaml
+name: tiny-27m-t4
+
+training:
+  output_dir: runs/tiny-27m-t4
+  precision: fp16
+  # If this OOMs, halve the micro-batch and double accumulation; the optimizer
+  # sees the same 72-sequence batch, so the run is otherwise unchanged and can
+  # resume from existing checkpoints (micro-batch/accumulation are resumable changes).
+  per_device_train_batch_size: 24
+  gradient_accumulation_steps: 3
