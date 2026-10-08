@@ -1,0 +1,3 @@
+run_id,model_name,seed,parameters,training_tokens,steps,validation_loss,test_loss,test_perplexity,tokens_per_second,peak_vram_mb,wall_clock_seconds,hardware,checkpoint_path,git_commit
+legacy-colab-a100,tiny-27m (legacy notebook),1337,26747392,442368000,12000,1.414838,,,,,,NVIDIA A100-SXM4-40GB,,0c966c4
+tiny-27m-20261007-003023-255434,tiny-27m,1337,26747392,442368000,12000,1.3894693449882178,1.384239810492346,3.991790234067602,21142.06147095944,1772.9765625,22549.6751050998,NVIDIA GeForce RTX 3050 Ti Laptop GPU,runs/tiny-27m/best,0c966c4071defde6473e04c3c97a031fc1f5d407-dirty

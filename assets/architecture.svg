@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 880" width="800" height="880" font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+  <title>TinyLM-27M architecture</title>
+  <desc>Llama-style decoder: token embedding, 8 pre-norm blocks of RMSNorm, RoPE grouped-query attention, residual, RMSNorm, SwiGLU feed-forward, residual; final RMSNorm; LM head tied to the embedding.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5b6472"/>
+    </marker>
+    <style>
+      .box { fill: #ffffff; stroke: #c9d1db; stroke-width: 1.2; }
+      .norm { fill: #eef4fb; stroke: #9db8d9; }
+      .attn { fill: #fdf1e6; stroke: #e0a872; }
+      .ffn  { fill: #ecf6ef; stroke: #8cc29c; }
+      .emb  { fill: #f3effa; stroke: #b3a1d6; }
+      .t  { font-size: 15px; fill: #1f2933; font-weight: 600; }
+      .s  { font-size: 12.5px; fill: #52606d; }
+      .k  { font-size: 12px; fill: #52606d; }
+      .h  { font-size: 20px; fill: #1f2933; font-weight: 700; }
+      .line { stroke: #5b6472; stroke-width: 1.4; fill: none; }
+      .res { stroke: #9aa5b1; stroke-width: 1.4; fill: none; stroke-dasharray: 5 4; }
+    </style>
+  </defs>
+  <rect width="800" height="880" fill="#fafbfc"/>
+  <text x="32" y="44" class="h">TinyLM-27M: Llama-style decoder</text>
+  <text x="32" y="66" class="s">26,747,392 parameters · pretrained from random initialization on TinyStories</text>
+
+  <!-- input -->
+  <rect x="150" y="92" width="300" height="44" rx="8" class="box"/>
+  <text x="300" y="112" text-anchor="middle" class="t">Token ids</text>
+  <text x="300" y="128" text-anchor="middle" class="s">byte-level BPE · vocab 8,192 · ≤ 512 tokens</text>
+  <line x1="300" y1="136" x2="300" y2="160" class="line" marker-end="url(#arrow)"/>
+
+  <rect x="150" y="162" width="300" height="44" rx="8" class="box emb"/>
+  <text x="300" y="182" text-anchor="middle" class="t">Token embedding</text>
+  <text x="300" y="198" text-anchor="middle" class="s">8,192 × 512 · no position embedding</text>
+  <line x1="300" y1="206" x2="300" y2="240" class="line" marker-end="url(#arrow)"/>
+
+  <!-- block -->
+  <rect x="70" y="244" width="460" height="400" rx="14" fill="none" stroke="#7b8794" stroke-width="1.6" stroke-dasharray="7 5"/>
+  <text x="520" y="268" text-anchor="end" class="t">Decoder block × 8</text>
+
+  <rect x="150" y="280" width="300" height="38" rx="8" class="box norm"/>
+  <text x="300" y="304" text-anchor="middle" class="t">RMSNorm</text>
+  <line x1="300" y1="318" x2="300" y2="334" class="line" marker-end="url(#arrow)"/>
+
+  <rect x="150" y="336" width="300" height="76" rx="8" class="box attn"/>
+  <text x="300" y="358" text-anchor="middle" class="t">Causal self-attention (GQA)</text>
+  <text x="300" y="377" text-anchor="middle" class="s">8 query heads · 2 shared K/V heads · head dim 64</text>
+  <text x="300" y="395" text-anchor="middle" class="s">RoPE on Q, K (θ = 10,000) · PyTorch SDPA</text>
+  <line x1="300" y1="412" x2="300" y2="436" class="line" marker-end="url(#arrow)"/>
+
+  <circle cx="300" cy="450" r="13" class="box"/>
+  <text x="300" y="455" text-anchor="middle" class="t">+</text>
+  <path d="M 300 226 L 110 226 L 110 450 L 285 450" class="res" marker-end="url(#arrow)"/>
+  <text x="104" y="342" text-anchor="end" class="k" transform="rotate(-90 98 342)">residual</text>
+  <line x1="300" y1="463" x2="300" y2="484" class="line" marker-end="url(#arrow)"/>
+
+  <rect x="150" y="486" width="300" height="38" rx="8" class="box norm"/>
+  <text x="300" y="510" text-anchor="middle" class="t">RMSNorm</text>
+  <line x1="300" y1="524" x2="300" y2="540" class="line" marker-end="url(#arrow)"/>
+
+  <rect x="150" y="542" width="300" height="58" rx="8" class="box ffn"/>
+  <text x="300" y="564" text-anchor="middle" class="t">SwiGLU feed-forward</text>
+  <text x="300" y="584" text-anchor="middle" class="s">down( silu(gate·x) ⊙ up·x ) · 512 → 1,408 → 512</text>
+  <line x1="300" y1="600" x2="300" y2="616" class="line" marker-end="url(#arrow)"/>
+
+  <circle cx="300" cy="628" r="13" class="box"/>
+  <text x="300" y="633" text-anchor="middle" class="t">+</text>
+  <path d="M 300 470 L 470 470 L 470 628 L 315 628" class="res" marker-end="url(#arrow)"/>
+  <line x1="300" y1="641" x2="300" y2="676" class="line" marker-end="url(#arrow)"/>
+
+  <!-- head -->
+  <rect x="150" y="678" width="300" height="38" rx="8" class="box norm"/>
+  <text x="300" y="702" text-anchor="middle" class="t">Final RMSNorm</text>
+  <line x1="300" y1="716" x2="300" y2="732" class="line" marker-end="url(#arrow)"/>
+
+  <rect x="150" y="734" width="300" height="44" rx="8" class="box emb"/>
+  <text x="300" y="754" text-anchor="middle" class="t">LM head (tied)</text>
+  <text x="300" y="770" text-anchor="middle" class="s">reuses the embedding matrix · 0 extra params</text>
+  <path d="M 450 184 L 538 184 Q 548 184 548 194 L 548 746 Q 548 756 538 756 L 456 756" class="res" marker-end="url(#arrow)"/>
+  <text x="556" y="470" class="k" transform="rotate(90 556 470)">same weight matrix</text>
+  <line x1="300" y1="778" x2="300" y2="802" class="line" marker-end="url(#arrow)"/>
+
+  <rect x="150" y="804" width="300" height="40" rx="8" class="box"/>
+  <text x="300" y="829" text-anchor="middle" class="t">Next-token logits (8,192)</text>
+
+  <!-- side table -->
+  <g transform="translate(590 286)">
+    <text x="0" y="0" class="t">Shape</text>
+    <text x="0" y="26" class="k">layers</text><text x="170" y="26" text-anchor="end" class="k">8</text>
+    <text x="0" y="48" class="k">hidden size</text><text x="170" y="48" text-anchor="end" class="k">512</text>
+    <text x="0" y="70" class="k">query / KV heads</text><text x="170" y="70" text-anchor="end" class="k">8 / 2</text>
+    <text x="0" y="92" class="k">FFN hidden</text><text x="170" y="92" text-anchor="end" class="k">1,408</text>
+    <text x="0" y="114" class="k">context</text><text x="170" y="114" text-anchor="end" class="k">512</text>
+    <text x="0" y="136" class="k">vocabulary</text><text x="170" y="136" text-anchor="end" class="k">8,192</text>
+    <text x="0" y="158" class="k">biases</text><text x="170" y="158" text-anchor="end" class="k">none</text>
+    <text x="0" y="196" class="t">Parameters</text>
+    <text x="0" y="222" class="k">feed-forward</text><text x="170" y="222" text-anchor="end" class="k">17.30 M</text>
+    <text x="0" y="244" class="k">attention</text><text x="170" y="244" text-anchor="end" class="k">5.24 M</text>
+    <text x="0" y="266" class="k">embedding (tied)</text><text x="170" y="266" text-anchor="end" class="k">4.19 M</text>
+    <text x="0" y="288" class="k">norms</text><text x="170" y="288" text-anchor="end" class="k">0.01 M</text>
+    <line x1="0" y1="298" x2="170" y2="298" stroke="#c9d1db"/>
+    <text x="0" y="318" class="t">total</text><text x="170" y="318" text-anchor="end" class="t">26.75 M</text>
+    <text x="0" y="352" class="k">KV cache, bf16, 512 tok:</text>
+    <text x="0" y="372" class="k">2 MiB / sequence (MHA: 8)</text>
+  </g>
+</svg>

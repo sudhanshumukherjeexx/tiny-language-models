@@ -1,0 +1,36 @@
+{
+  "cache_key": {
+    "dataset_name": "roneneldan/TinyStories",
+    "dataset_revision": null,
+    "text_field": "text",
+    "source_train_split": "train",
+    "source_test_split": "validation",
+    "validation_fraction": 0.005,
+    "min_chars": 100,
+    "max_train_examples": null,
+    "subset_seed": 1337,
+    "decontaminate_test": true,
+    "normalization": {
+      "unicode_form": "NFKC",
+      "ascii_punctuation": true,
+      "strip_non_ascii": false,
+      "collapse_whitespace": true
+    }
+  },
+  "resolved_revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64",
+  "source_rows": {
+    "train": 2119719,
+    "validation": 21990
+  },
+  "dropped_below_min_chars": {
+    "train": 243,
+    "validation": 1
+  },
+  "test_removed_exact_copy_of_train": 6601,
+  "rows": {
+    "train": 2109002,
+    "validation": 10474,
+    "test": 15388
+  },
+  "train_split_fingerprint": "4bb106ad2748cc231064378d125201e6"
+}

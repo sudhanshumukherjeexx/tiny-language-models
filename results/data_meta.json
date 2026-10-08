@@ -1,0 +1,48 @@
+{
+  "dataset": "roneneldan/TinyStories",
+  "dataset_revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64",
+  "train_split_fingerprint": "4bb106ad2748cc231064378d125201e6",
+  "block_size": 512,
+  "tokenizer_sha256": "ce7e3da533b1865ada4ddc9e01b9312c3c0854555fe794f657297d637eb1b605",
+  "vocab_size": 8192,
+  "eos_token_id": 0,
+  "token_dtype": "uint16",
+  "splits": {
+    "train": {
+      "examples": 2109002,
+      "characters": 1890735237,
+      "text_tokens": 462295187,
+      "eos_tokens": 2109002,
+      "stream_tokens": 464404189,
+      "packed_tokens": 464403968,
+      "sequences": 907039,
+      "discarded_tokens": 221,
+      "block_size": 512,
+      "retained_fraction": 0.9999995241214329
+    },
+    "validation": {
+      "examples": 10474,
+      "characters": 9416675,
+      "text_tokens": 2301209,
+      "eos_tokens": 10474,
+      "stream_tokens": 2311683,
+      "packed_tokens": 2311680,
+      "sequences": 4515,
+      "discarded_tokens": 3,
+      "block_size": 512,
+      "retained_fraction": 0.9999987022442091
+    },
+    "test": {
+      "examples": 15388,
+      "characters": 12911470,
+      "text_tokens": 3125099,
+      "eos_tokens": 15388,
+      "stream_tokens": 3140487,
+      "packed_tokens": 3140096,
+      "sequences": 6133,
+      "discarded_tokens": 391,
+      "block_size": 512,
+      "retained_fraction": 0.999875497016864
+    }
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "baseline-gpt-style": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "model": {
+      "position_encoding": "learned",
+      "norm": "layernorm",
+      "ffn": "gelu",
+      "num_key_value_heads": 8,
+      "intermediate_size": 1696
+    },
+    "hardware": [
+      "NVIDIA GeForce RTX 3050 Ti Laptop GPU"
+    ],
+    "training_tokens": 24576000,
+    "parameters": {
+      "mean": 26756096.0,
+      "std": 0.0,
+      "n": 3
+    },
+    "final_train_loss": {
+      "mean": 2.1925733228524527,
+      "std": 0.003970691735716161,
+      "n": 3
+    },
+    "full_validation_loss": {
+      "mean": 2.220820863170349,
+      "std": 0.0019270307971862679,
+      "n": 3
+    },
+    "full_validation_perplexity": {
+      "mean": 9.214903337932748,
+      "std": 0.017766798558693127,
+      "n": 3
+    },
+    "tokens_per_second": {
+      "mean": 26196.774919716485,
+      "std": 934.5652762198506,
+      "n": 3
+    },
+    "peak_vram_allocated_mb": {
+      "mean": 2474.3932291666665,
+      "std": 1.9124727666906354,
+      "n": 3
+    },
+    "wall_clock_seconds": {
+      "mean": 972.2765831000482,
+      "std": 33.54095087970553,
+      "n": 3
+    }
+  },
+  "rope": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "model": {
+      "position_encoding": "rope",
+      "norm": "layernorm",
+      "ffn": "gelu",
+      "num_key_value_heads": 8,
+      "intermediate_size": 1728
+    },
+    "hardware": [
+      "NVIDIA GeForce RTX 3050 Ti Laptop GPU"
+    ],
+    "training_tokens": 24576000,
+    "parameters": {
+      "mean": 26756096.0,
+      "std": 0.0,
+      "n": 3
+    },
+    "final_train_loss": {
+      "mean": 2.053261807560921,
+      "std": 0.008062670530983022,
+      "n": 3
+    },
+    "full_validation_loss": {
+      "mean": 2.084762508114927,
+      "std": 0.004152488368284865,
+      "n": 3
+    },
+    "full_validation_perplexity": {
+      "mean": 8.04272740500788,
+      "std": 0.03339131189208686,
+      "n": 3
+    },
+    "tokens_per_second": {
+      "mean": 22283.896433358244,
+      "std": 733.4801259096032,
+      "n": 3
+    },
+    "peak_vram_allocated_mb": {
+      "mean": 2492.82080078125,
+      "std": 0.0,
+      "n": 3
+    },
+    "wall_clock_seconds": {
+      "mean": 1144.6987493666045,
+      "std": 36.729346051543196,
+      "n": 3
+    }
+  },
+  "rmsnorm": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "model": {
+      "position_encoding": "rope",
+      "norm": "rmsnorm",
+      "ffn": "gelu",
+      "num_key_value_heads": 8,
+      "intermediate_size": 1728
+    },
+    "hardware": [
+      "NVIDIA GeForce RTX 3050 Ti Laptop GPU"
+    ],
+    "training_tokens": 24576000,
+    "parameters": {
+      "mean": 26747392.0,
+      "std": 0.0,
+      "n": 3
+    },
+    "final_train_loss": {
+      "mean": 2.0566786299149196,
+      "std": 0.006660319018385743,
+      "n": 3
+    },
+    "full_validation_loss": {
+      "mean": 2.088738147285689,
+      "std": 0.002799884552710604,
+      "n": 3
+    },
+    "full_validation_perplexity": {
+      "mean": 8.074740733046799,
+      "std": 0.022619073422296694,
+      "n": 3
+    },
+    "tokens_per_second": {
+      "mean": 19558.859399671925,
+      "std": 80.89659834491393,
+      "n": 3
+    },
+    "peak_vram_allocated_mb": {
+      "mean": 2764.5234375,
+      "std": 0.0,
+      "n": 3
+    },
+    "wall_clock_seconds": {
+      "mean": 1300.5753776333295,
+      "std": 5.069845436155527,
+      "n": 3
+    }
+  },
+  "swiglu": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "model": {
+      "position_encoding": "rope",
+      "norm": "rmsnorm",
+      "ffn": "swiglu",
+      "num_key_value_heads": 8,
+      "intermediate_size": 1152
+    },
+    "hardware": [
+      "NVIDIA GeForce RTX 3050 Ti Laptop GPU"
+    ],
+    "training_tokens": 24576000,
+    "parameters": {
+      "mean": 26747392.0,
+      "std": 0.0,
+      "n": 3
+    },
+    "final_train_loss": {
+      "mean": 2.0251507351795834,
+      "std": 0.01704118258796472,
+      "n": 3
+    },
+    "full_validation_loss": {
+      "mean": 2.060048227267936,
+      "std": 0.01825424643076553,
+      "n": 3
+    },
+    "full_validation_perplexity": {
+      "mean": 7.8472217507289175,
+      "std": 0.14373225599944991,
+      "n": 3
+    },
+    "tokens_per_second": {
+      "mean": 19219.77098466169,
+      "std": 678.530936925327,
+      "n": 3
+    },
+    "peak_vram_allocated_mb": {
+      "mean": 2969.33984375,
+      "std": 0.0,
+      "n": 3
+    },
+    "wall_clock_seconds": {
+      "mean": 1324.5777733667444,
+      "std": 45.565646642300216,
+      "n": 3
+    }
+  },
+  "gqa": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "model": {
+      "position_encoding": "rope",
+      "norm": "rmsnorm",
+      "ffn": "swiglu",
+      "num_key_value_heads": 2,
+      "intermediate_size": 1408
+    },
+    "hardware": [
+      "NVIDIA GeForce RTX 3050 Ti Laptop GPU"
+    ],
+    "training_tokens": 24576000,
+    "parameters": {
+      "mean": 26747392.0,
+      "std": 0.0,
+      "n": 3
+    },
+    "final_train_loss": {
+      "mean": 1.9928804328044256,
+      "std": 0.01585474191834138,
+      "n": 3
+    },
+    "full_validation_loss": {
+      "mean": 2.0267991581188443,
+      "std": 0.014307187274888389,
+      "n": 3
+    },
+    "full_validation_perplexity": {
+      "mean": 7.59027287727798,
+      "std": 0.10896004370058013,
+      "n": 3
+    },
+    "tokens_per_second": {
+      "mean": 19057.468910877684,
+      "std": 64.22681713607926,
+      "n": 3
+    },
+    "peak_vram_allocated_mb": {
+      "mean": 3094.52294921875,
+      "std": 0.0,
+      "n": 3
+    },
+    "wall_clock_seconds": {
+      "mean": 1333.978225266561,
+      "std": 4.186925187384452,
+      "n": 3
+    }
+  }
+}

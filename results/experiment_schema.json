@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/sudhanshumukherjeexx/tiny-language-models/results/experiment_schema.json",
+  "title": "TinyLM run metrics (runs/<run>/metrics.json)",
+  "description": "Written by tinylm.training.PretrainingRun at the end of every training invocation. Values accumulate across resumes; per-invocation values live in `invocations`. Null means 'not measured', never 'zero'.",
+  "type": "object",
+  "required": ["run_id", "name", "status", "seed", "parameters", "steps", "training_tokens", "invocations"],
+  "properties": {
+    "run_id": {"type": "string"},
+    "name": {"type": "string", "description": "Config name"},
+    "status": {"enum": ["completed", "partial"]},
+    "git_commit": {"type": ["string", "null"], "description": "HEAD at the end of the run; '-dirty' if uncommitted changes"},
+    "seed": {"type": "integer"},
+    "hardware": {"type": "array", "items": {"type": "string"}, "description": "Every device that ran part of the experiment"},
+    "precision": {"enum": ["fp32", "fp16", "bf16"]},
+    "architecture": {"enum": ["llama", "reference"]},
+    "parameters": {"type": "integer", "description": "Unique parameters (tied tensors counted once)"},
+    "steps": {"type": "integer", "description": "Optimizer steps completed, all invocations"},
+    "training_tokens": {"type": "integer", "description": "Tokens consumed by optimizer steps, all invocations"},
+    "tokens_per_parameter": {"type": "number"},
+    "wall_clock_seconds": {"type": "number", "description": "Sum over invocations, including evaluation and checkpoint IO (up to the last checkpoint for interrupted invocations)"},
+    "train_seconds": {"type": "number", "description": "Time inside optimizer steps only"},
+    "tokens_per_second": {"type": ["number", "null"], "description": "training_tokens / train_seconds"},
+    "final_train_loss": {"type": ["number", "null"], "description": "Mean training loss over the last logging window"},
+    "best_validation_loss": {"type": ["number", "null"], "description": "Validation split (model selection). Never the test split."},
+    "best_validation_perplexity": {"type": ["number", "null"]},
+    "best_step": {"type": ["integer", "null"]},
+    "best_checkpoint": {"type": ["string", "null"], "description": "Directory of the validation-selected export"},
+    "peak_vram_allocated_mb": {"type": ["number", "null"]},
+    "peak_vram_reserved_mb": {"type": ["number", "null"]},
+    "dataset": {"type": "string"},
+    "dataset_revision": {"type": ["string", "null"], "description": "Hub commit SHA of the dataset"},
+    "tokenizer_sha256": {"type": "string"},
+    "train_split_tokens": {"type": "integer"},
+    "planned_epochs": {"type": "number"},
+    "initialization_loss": {"type": "number", "description": "Untrained loss on random tokens; should be close to ln(vocab)"},
+    "invocations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["start_step", "end_step", "status", "hardware", "wall_clock_seconds", "train_seconds", "tokens"],
+        "properties": {
+          "started_at": {"type": "string"},
+          "start_step": {"type": "integer"},
+          "end_step": {"type": "integer"},
+          "status": {"enum": ["running", "stopped", "completed"], "description": "'running' = process ended after this checkpoint without finishing (e.g. crash)"},
+          "hardware": {"type": "string"},
+          "precision": {"type": "string"},
+          "micro_batch": {"type": "integer"},
+          "grad_accum": {"type": "integer"},
+          "git_commit": {"type": ["string", "null"]},
+          "wall_clock_seconds": {"type": "number"},
+          "train_seconds": {"type": "number"},
+          "tokens": {"type": "integer"},
+          "tokens_per_second": {"type": ["number", "null"]}
+        }
+      }
+    }
+  }
+}

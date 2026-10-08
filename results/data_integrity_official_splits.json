@@ -1,0 +1,207 @@
+{
+  "note": "Measured BEFORE test decontamination: 'test' here is the full official TinyStories validation split (21,989 stories after the 100-character filter). Superseded for the current protocol by data_integrity.json; kept as the evidence for the decontamination step and for the legacy-run caveat.",
+  "dataset": "roneneldan/TinyStories",
+  "dataset_revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64",
+  "tokenizer_sha256": "ce7e3da533b1865ada4ddc9e01b9312c3c0854555fe794f657297d637eb1b605",
+  "split_protocol": {
+    "train": "official 'train' minus hash-held-out validation",
+    "validation": "0.500% of official train by content hash",
+    "test": "official 'validation' split"
+  },
+  "exact_within_split": {
+    "train": {
+      "documents": 2109002,
+      "unique": 1790329,
+      "redundant_copies": 318673,
+      "redundant_copy_rate": 0.15110132659902645,
+      "largest_cluster": 3
+    },
+    "validation": {
+      "documents": 10474,
+      "unique": 8907,
+      "redundant_copies": 1567,
+      "redundant_copy_rate": 0.14960855451594424,
+      "largest_cluster": 3
+    },
+    "test": {
+      "documents": 21989,
+      "unique": 21989,
+      "redundant_copies": 0,
+      "redundant_copy_rate": 0.0,
+      "largest_cluster": 1
+    }
+  },
+  "exact_cross_split": {
+    "validation_in_train": {
+      "documents": 10474,
+      "with_copy_in_reference": 0,
+      "rate": 0.0
+    },
+    "test_in_train": {
+      "documents": 21989,
+      "with_copy_in_reference": 6582,
+      "rate": 0.29933148392378006
+    },
+    "test_in_validation": {
+      "documents": 21989,
+      "with_copy_in_reference": 19,
+      "rate": 0.0008640683978352813
+    }
+  },
+  "containment": {
+    "validation": {
+      "documents": 10473,
+      "mean": 0.07994097376698409,
+      "median": 0.04430379746835443,
+      "share_ge_0.5": 0.0005729017473503294,
+      "share_ge_0.8": 0.0,
+      "share_ge_1.0": 0.0,
+      "ngram_tokens": 13
+    },
+    "test": {
+      "documents": 21987,
+      "mean": 0.35598080211701894,
+      "median": 0.11655011655011654,
+      "share_ge_0.5": 0.2997225633328785,
+      "share_ge_0.8": 0.2993587119661618,
+      "share_ge_1.0": 0.2993587119661618,
+      "ngram_tokens": 13
+    }
+  },
+  "near_duplicates": {
+    "train_sample": {
+      "documents": 100000,
+      "verified_pairs": 722,
+      "documents_with_near_duplicate": 1444,
+      "rate": 0.01444,
+      "params": {
+        "num_perm": 128,
+        "bands": 16,
+        "shingle_tokens": 5,
+        "jaccard_threshold": 0.8
+      },
+      "examples": [
+        [
+          74583,
+          79498,
+          1.0
+        ],
+        [
+          61800,
+          65513,
+          1.0
+        ],
+        [
+          12446,
+          37043,
+          1.0
+        ],
+        [
+          59570,
+          97023,
+          1.0
+        ],
+        [
+          31424,
+          62198,
+          1.0
+        ],
+        [
+          38187,
+          94379,
+          1.0
+        ],
+        [
+          2843,
+          14891,
+          1.0
+        ],
+        [
+          7627,
+          70985,
+          1.0
+        ],
+        [
+          27845,
+          84320,
+          1.0
+        ],
+        [
+          20378,
+          84182,
+          1.0
+        ],
+        [
+          45604,
+          90306,
+          1.0
+        ],
+        [
+          20962,
+          80199,
+          1.0
+        ],
+        [
+          26867,
+          78213,
+          1.0
+        ],
+        [
+          84834,
+          89304,
+          1.0
+        ],
+        [
+          438,
+          65226,
+          1.0
+        ],
+        [
+          78301,
+          99791,
+          1.0
+        ],
+        [
+          841,
+          81053,
+          1.0
+        ],
+        [
+          45924,
+          68332,
+          1.0
+        ],
+        [
+          45061,
+          70419,
+          1.0
+        ],
+        [
+          15684,
+          60829,
+          1.0
+        ]
+      ],
+      "population": "random sample of train"
+    },
+    "test": {
+      "documents": 21987,
+      "verified_pairs": 0,
+      "documents_with_near_duplicate": 0,
+      "rate": 0.0,
+      "params": {
+        "num_perm": 128,
+        "bands": 16,
+        "shingle_tokens": 5,
+        "jaccard_threshold": 0.8
+      },
+      "examples": []
+    },
+    "test_vs_train_sample": {
+      "queries": 21987,
+      "reference": 100000,
+      "with_near_duplicate": 308,
+      "rate": 0.014008277618592805
+    }
+  }
+}
